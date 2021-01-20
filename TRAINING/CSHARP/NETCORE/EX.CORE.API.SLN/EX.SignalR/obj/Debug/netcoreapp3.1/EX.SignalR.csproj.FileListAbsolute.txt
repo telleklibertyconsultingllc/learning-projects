@@ -1,0 +1,16 @@
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\bin\Debug\netcoreapp3.1\EX.SignalR.deps.json
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\bin\Debug\netcoreapp3.1\EX.SignalR.dll
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\bin\Debug\netcoreapp3.1\EX.SignalR.pdb
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\bin\Debug\netcoreapp3.1\EX.DTO.dll
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\bin\Debug\netcoreapp3.1\EX.Interfaces.dll
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\bin\Debug\netcoreapp3.1\EX.LOGIC.dll
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\bin\Debug\netcoreapp3.1\EX.DTO.pdb
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\bin\Debug\netcoreapp3.1\EX.Interfaces.pdb
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\bin\Debug\netcoreapp3.1\EX.LOGIC.pdb
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\obj\Debug\netcoreapp3.1\EX.SignalR.csprojAssemblyReference.cache
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\obj\Debug\netcoreapp3.1\EX.SignalR.AssemblyInfoInputs.cache
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\obj\Debug\netcoreapp3.1\EX.SignalR.AssemblyInfo.cs
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\obj\Debug\netcoreapp3.1\EX.SignalR.csproj.CoreCompileInputs.cache
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\obj\Debug\netcoreapp3.1\EX.SignalR.csproj.CopyComplete
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\obj\Debug\netcoreapp3.1\EX.SignalR.dll
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SignalR\obj\Debug\netcoreapp3.1\EX.SignalR.pdb

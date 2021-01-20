@@ -1,0 +1,12 @@
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\bin\Debug\netcoreapp3.1\EX.Interfaces.deps.json
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\bin\Debug\netcoreapp3.1\EX.Interfaces.dll
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\bin\Debug\netcoreapp3.1\EX.Interfaces.pdb
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\bin\Debug\netcoreapp3.1\EX.DTO.dll
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\bin\Debug\netcoreapp3.1\EX.DTO.pdb
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.csprojAssemblyReference.cache
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.AssemblyInfoInputs.cache
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.AssemblyInfo.cs
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.csproj.CoreCompileInputs.cache
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.csproj.CopyComplete
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.dll
+C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.pdb

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "9Srz5qWmWHJaCOGNLkL0rWyBUBhYLQD2lGtduaF0zRQNZ9X24yRl0wok0cGYTgUX6zEXmI2OFOg+JJbIKDqS+g==",
+  "success": true,
+  "projectFilePath": "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.CORE.API\\EX.CORE.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TELI003\\.nuget\\packages\\messagepack\\2.1.90\\messagepack.2.1.90.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\messagepack.annotations\\2.1.90\\messagepack.annotations.2.1.90.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\5.0.1\\microsoft.aspnetcore.connections.abstractions.5.0.1.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.1\\microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\5.0.1\\microsoft.aspnetcore.signalr.common.5.0.1.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\microsoft.aspnetcore.signalr.core\\1.1.0\\microsoft.aspnetcore.signalr.core.1.1.0.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\1.1.0\\microsoft.aspnetcore.signalr.protocols.json.1.1.0.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.messagepack\\5.0.1\\microsoft.aspnetcore.signalr.protocols.messagepack.5.0.1.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.2.0\\microsoft.extensions.logging.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\system.reflection.emit\\4.6.0\\system.reflection.emit.4.6.0.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\system.reflection.emit.lightweight\\4.6.0\\system.reflection.emit.lightweight.4.6.0.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\system.threading.channels\\4.5.0\\system.threading.channels.4.5.0.nupkg.sha512",
+    "C:\\Users\\TELI003\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

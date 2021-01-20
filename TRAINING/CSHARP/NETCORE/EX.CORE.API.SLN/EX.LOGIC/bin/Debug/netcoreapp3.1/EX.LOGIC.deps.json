@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EX.LOGIC/1.0.0": {
+        "dependencies": {
+          "EX.DTO": "1.0.0",
+          "EX.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "EX.LOGIC.dll": {}
+        }
+      },
+      "EX.DTO/1.0.0": {
+        "runtime": {
+          "EX.DTO.dll": {}
+        }
+      },
+      "EX.Interfaces/1.0.0": {
+        "dependencies": {
+          "EX.DTO": "1.0.0"
+        },
+        "runtime": {
+          "EX.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EX.LOGIC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EX.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EX.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

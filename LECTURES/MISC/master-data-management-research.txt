@@ -1,0 +1,29 @@
+SMI - Shared Master Index
+- Goals
+-- Identity Management
+--- Searching and matching persons
+--- Ensure we don't have duplicate entries of a person
+--- Manage the identifying information
+--- be able to research and report across systems/programs
+-- An ask-once/enter-once approach to identifying information about people
+--- Send information to other systems so users don't enter information repeatedly
+-- Coordination of service delivery
+--- What service
+--- What contact information
+-- Delivery of some technical plumbing (Common Access Protocol) to integrate Service Delivery Systems
+
+- SMI Data
+-- About a person
+--- Involded in one or more Service delivery
+--- Include a unique Identifier
+--- to be sent to Service Delivery
+--- To be Read from Service Delivery
+- SMI Functions
+-- Search a person
+-- Add and maintain identifying information
+-- Send information to Service Delivery
+-- Display information
+-- Role-Based Security
+
+- MDM
+-- Master data management ("MDM") is a technology-enabled discipline in which business and Information Technology ("IT") work together to ensure the uniformity, accuracy, stewardship, semantic consistency and accountability of the enterprise's official shared master data assets.

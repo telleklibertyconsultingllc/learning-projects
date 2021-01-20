@@ -1,0 +1,24 @@
+Sep-22 TODOs
+- Finish Progress Bar PBIs
+-- ECF Next
+--- CSS Style for Progress Bar
+--- Timeout exception process - DONE
+-- ECF Content Access 
+--- CSS Style for Progress Bar
+--- Timeout exception process
+- Watch Videos
+-- MVC LifeCycle
+-- MBA in a Box: Business Lessons from a CEO
+--- Watch one Section
+-- How To Become An Outstanding Solution Architect
+-- Highly Effective Problem Solving Skills
+- Start Planning for Sister
+-- Evaluate fixing the house in Paynesville Joe Bar 
+-- Barrel
+-- Send Money
+-- Discussion with Morris and Nahdee
+- Call Accountants about setting up business 
+-- Accounting Process
+- Talk with Faryal about position with Publicis Sapient
+
+Progress bar height => 7px

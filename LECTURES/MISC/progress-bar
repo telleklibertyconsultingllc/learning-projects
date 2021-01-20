@@ -1,0 +1,17 @@
+Progress Bar
+- require from UI
+-- a minute
+--- everything else is a minute - DONE
+-- 3 minute 
+--- FileNet services that should have 3 minutes timeout 
+---- Content = "contentListUrl": "/EcfFilenetServices/rest/EcfContentListService",
+---- Document = "documentUrl": "/EcfFilenetServices/rest/EcfDocumentService"
+-- try a second time
+-- raise an error to the caller
+-- What actual exception 
+--- message = "timeout" => interceptor 
+- base service
+-- gets/gets => timeout exception
+--- retry call 
+- NO INTERCEPTOR
+

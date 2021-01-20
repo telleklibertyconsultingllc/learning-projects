@@ -1,0 +1,29 @@
+Demo considerations
+- ECF Shared Library
+-- Design Considerations 
+--- UI Models? This is huge
+--- Designing your code to be extensible
+-- Coding and development
+-- Testing your package before deploying - NPM PACK
+-- Debugging your application
+-- Deploying your package to NPM
+--- Viewing your library in NPM
+--- Viewing the organization site of ECF Shared Library
+--- Versioning - NPM VERSION 
+---- Bump up projects\ecf-lib\package.json version
+-- Building ECF Shared Library
+-- Executing Unit Tests for ECF Shared Library
+-- Installing and uninstalling ECF Shared Library
+-- Deployment Considerations with Azure - NONE, acts like an ordinary NPM package
+-- Updating README.md with your changes
+- ECF Content Access
+--- Passing data between ECF Next and ECF Content Access - storage Service and Encryption
+---- Debugging your application with local storage data in two different hosts
+--- Understanding ECF Content Access routing
+---- everything is off of content id
+---- Can't switch between view types. ONLY view one type at a time
+--- understanding ECF Content Access routing resolver
+--- Understanding the View Types
+--- Header
+- Understanding ECF Next Architecture
+-- High level overview of ECF Next Architecture

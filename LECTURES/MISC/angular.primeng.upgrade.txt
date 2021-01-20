@@ -1,0 +1,17 @@
+upgrade
+steps for ngecf, ecfcontentaccess and ngecfshared folders
+1. uninstall peer dependencies
+2. install peer dependencies
+3. ng update @angular/cli
+3. ng update @ngrx/store
+4. uninstall and install Primeng
+-- primeng
+-- primeflex 
+-- primeicons - remove
+
+- Issues/Solutions
+1. angular library tslib angular 10 not upgrading
+SOLN: URL: https://angular.io/guide/migration-update-libraries-tslib
+
+2. memo-decorator and cryptojs in ECF Shared Library
+SOLN: uninstall and install packages

@@ -1,0 +1,14 @@
+September 20 Tasks
+- finish user store - DONE
+- setup chrome debugger
+- finish prism store - DONE
+-- change reducer to update new changes - NOT AN ISSUE. Compared data with dev environment.
+- alert Boaz about prism store  - DONE
+- start unit test
+- add error message for smi login whenever user login is incorrect  - DONE
+- whenever user hits F5 or reload the page redirect to login page. - DONE
+-- on filentlogin page - DONE
+-- on loginsmipage - DONE
+-- on case search page - DONE
+-- Prism case page - DONE
+-- Auth Guard - DONE

@@ -1,0 +1,31 @@
+# Semantic Versioning
+
+- Semantic Versioning increments 3 version numbers. Each is incremented based on a specific set of conditions.
+MAJOR: The major version is incremented when there are functions that are incompatible with a previous major version.
+MINOR: Are incremented when you add functionality to your app or library.
+PATCH: Are incremented when there is no additional functionality added to the app or library and changes are still backward compatible.
+       Patch versions are used to indicate bug fixes, so developers often upgrade to newer minor versions to ensure backward compatibility.
+
+## Semantic Versioning Annotations
+- You may have other versioning requirements, like:
+-- alpha releases
+-- meta-data information
+- Meta-data and pre-release versions
+-- Meta-data uses + (plus sign), 1.4.2+20002
+-- Used for build information
+- Pre-Releases
+-- 1.6.4-beta
+
+
+ECF Shared Library => will have it's own Build Semantic Version (different from ECF Next and ECF Content Access)
+- DEV/QA
+-- every sprint, we increment the MAJOR Version ONCE
+-- I will change the scripts to increment the MINOR version everytime we do a PACK/PROD powershell script.
+-- For Production Release or debug, I will create a script for updating PATCH Versions ONLY. No changes to PIPELINE or anything
+-- NO NEED FOR TAGS
+
+-- NEW PowerShell Scripts
+"publish-library-prod": "npm run build-and-deploy-release-dev",
+"publish-library-pack": "npm run build-and-deploy-pack-dev",
+"publish-library-release-prod": "npm run build-and-deploy-prod",
+"publish-library-release-pack": "npm run build-and-deploy-pack",

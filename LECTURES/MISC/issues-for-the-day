@@ -1,0 +1,46 @@
+Defects
+- 62460 - ECF Next: MAXIS Child Care Worker is listed multiple times when repeat searching 
+- 62458 - ECF Next: MAXIS Worker column label is listed as 'Type' instead of 'Role' AND description is 'Child Care' instead of 'CCA Worker' (Problem with Code Review)
+
+===================================
+TOY
+- Code Review Process
+- Accomplishments for this sprint
+- Anything for future references
+- download BING app
+- 6 months accomplishments
+- accomplish
+- need to help us
+- need to help you
+===================================
+
+John Holcomb catchError issue
+[‎3/‎19/‎2020 9:25 AM]  John R. Holcomb:  
+I asked your question again of Bryan.  Can we just get an empty list when not content is found for the selection criteria?  We are going to get an exception.  I looked at catchError.  I might be doing it wrong, but putting it in the concatMap stream in basic search was not working, and using the one in the intercepter leaves us without enough information to know what to do.  Any thoughts?
+ 
+[‎3/‎19/‎2020 9:27 AM]  
+Send me an email (this is for me to keep track off) and I will look into it. I think the issue has been resolved by QA. I see Sandy has closed one of the defect. Is this something different? if yes, send me the defect number and I will look into it.
+ 
+[‎3/‎19/‎2020 9:37 AM]  
+Is this ok?
+ 
+[‎3/‎19/‎2020 9:45 AM]  John R. Holcomb:  
+Sent Email
+ 
+[‎3/‎19/‎2020 9:46 AM]  
+Yeah, reading it now. Will work on it Thanks. I was about to respond to it to let you know. Do you still want me to? Or this conversation is ok?
+ 
+[‎3/‎19/‎2020 9:49 AM]  John R. Holcomb:  
+I think all my code is delivered to the dev branch
+ 
+[‎3/‎19/‎2020 9:49 AM]  
+k, what is the name of the branch?
+ 
+[‎3/‎19/‎2020 9:51 AM]  John R. Holcomb:  
+it has 62170 in the name
+ 
+[‎3/‎19/‎2020 9:51 AM]  
+k, will look into it.
+ 
+
+ 

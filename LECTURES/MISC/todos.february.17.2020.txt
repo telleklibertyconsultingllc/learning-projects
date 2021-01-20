@@ -1,0 +1,6 @@
+- Meeting on design 
+- Styling
+- Minification of js/css
+- code refactor
+-- links actions with ui
+-- style with jonathan - done

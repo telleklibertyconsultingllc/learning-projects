@@ -1,0 +1,32 @@
+Code Review
+- step 1 - create the pull request and create tasks for PBI
+- Reviewee tasks
+-- get latest from development branch, before doing next step
+-- Recommendation - Create new Branch - DON'T CARE
+-- Create Pull request
+--- Add reviewers
+--- Add PBI under review
+--- Save/Create
+--- Add tasks under PBI(s) "Code Review"
+--- NOTE: You can have several commits to one pull request
+
+- Step 2 review
+-- Reviewer tasks (2 steps)
+-- Step 1
+--- Set code review task name to reviewer's name
+--- Pull down branch to local (only tes                                                                       t process if no errors in console log and see if styling looks good and check some overall functionality; we are not doing QA work)
+--- execute "npm start"
+--- Review PBI
+---- Errors, send email to Reviewee
+-- Step 2
+--- Review Code
+---- Errors, add comment to for reviewee. Let Reviewee know of comments
+--- Approve or Reject pull request
+--- Merge pull request
+
+-	Preparing for Pull request
+-	Creating A pull request
+-	Initial review of PBI
+-	Commenting on pull request code
+-	Approving and completing a pull request
+

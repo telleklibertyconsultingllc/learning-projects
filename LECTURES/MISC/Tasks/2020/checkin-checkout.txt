@@ -1,0 +1,9 @@
+---- Product Backlog Item 81696: Edit Existing Content: Check Out & Cancel Check Out Content From Properties Drawer
+---- Product Backlog Item 79351: Edit Existing Content: Check In Non-Adobe Blue LiveCycle
+
+ECF Shared
+- Support Check DONE
+- Check In Base 64 String DONE
+- Check In Confirmation Dialog
+- Style Cancel Check In Background to be WHITE DONE
+- Simultaneous Checkout DONE

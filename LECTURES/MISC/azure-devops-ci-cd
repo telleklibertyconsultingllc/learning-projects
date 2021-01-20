@@ -1,0 +1,10 @@
+Notes on Azure DevOps CI/CD
+Azure DevOps
+- Pipeline
+-- EcfNextDev-CI
+-- EcfContentAccessDev-CI (DON'T START THIS WHEN BUILDING, AUTOMATICALLY BUILDS)
+- Releases
+-- EcfNextDev-CD
+-- EcfContentAccessDev-CD (MUST START)
+===========================================
+- Review PBI's for next sprint.

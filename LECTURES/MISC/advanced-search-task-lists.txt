@@ -1,0 +1,36 @@
+Advanced Search Page Task Lists
+- others
+-- spinner service
+
+- components
+-- landing page
+-- basic search (done)
+-- demographics 
+-- results
+
+- services
+-- service to perform demographic search (done)
+-- store service (NGRX)
+-- selector service (NGRX)
+
+- State Management (NGRX)
+-- store service
+--- performs dispatch (use in demographics and results tab)
+-- effects
+--- advanced search communication with rest api
+--- send dispatch
+-- selector
+--- results => name, birth date, age, smi id, and gender
+-- actions
+--- perform search with demographics request
+-- state
+--- create ui model/state for advanced search rest api
+
+TO-DO's
+- create PBI's for recommendations on application
+- PBI for sub header styling
+
+- Status for Toy
+-- Application recommendations status
+-- design sessions
+-- CI/CD discussion for ECF.Next (Learning)

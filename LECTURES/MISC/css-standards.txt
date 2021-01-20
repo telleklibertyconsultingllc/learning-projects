@@ -1,0 +1,14 @@
+CSS Styles Standard
+- naming convention
+-- global style.scss
+-- primeng overrides
+
+- 
+
+- comments
+-- 
+
+.ui-button-success,
+.local-button {
+	color: blue;
+}

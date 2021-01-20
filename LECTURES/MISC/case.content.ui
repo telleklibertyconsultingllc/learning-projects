@@ -1,0 +1,32 @@
+Case Content UI
+
+Questions:
+
+- For the first PBI - can we display the list of content? Which of the wireframes below should be included in the first phase of Case Content Development?
+- Can the system signify to the user that content has changed (such as with a toast)?
+- Default sort question - Do we look only at the date or also time of day?
+- Can we add the file type to the Properties of a piece of content? Yes - they already included the mime type. 
+- Icons for file type - for example, PDF sometimes shows a Red LiveCycle - can it always display a PDF icon if it is a PDF? 
+- Can the system return a message indicating no content found?
+- Can the system return a message indicating no content found based on filters applied?
+- Version Status:  if a document is in a reserved state, does that always need to be resolved by IT?
+
+- Styles:
+
+1. Case Content Screen:
+https://dept.hennepin.us/hsphd/sa/itrm/dbrs/ECF%20Next%20Wireframes/Case%20Details%20%E2%80%93%20Content%20List.jpg
+- 
+2. Case Content Screen - Drawer Open:
+https://dept.hennepin.us/hsphd/sa/itrm/dbrs/ECF%20Next%20Wireframes/Case%20Details%20%E2%80%93%20Content%20List%20%E2%80%93%20Panel%20Expanded.jpg
+
+3. Case Content Screen - Less Icon Columns:
+https://dept.hennepin.us/hsphd/sa/itrm/dbrs/ECF%20Next%20Wireframes/Case%20Details%20%E2%80%93%20Content%20List%20%E2%80%93%20No%20Icon%20Columns.jpg
+
+4. Case Content Screen - Pagination:
+https://dept.hennepin.us/hsphd/sa/itrm/dbrs/ECF%20Next%20Wireframes/Case%20Details%20%E2%80%93%20Content%20List.jpg
+
+5. Case Content Screen - Empty State - No Documents:
+https://dept.hennepin.us/hsphd/sa/itrm/dbrs/ECF%20Next%20Wireframes/Case%20Details%20%E2%80%93%20Content%20List%20%E2%80%93%20Panel%20Expanded%20%E2%80%93%20Empty%20State.jpg
+
+6. Case Content Screen - Empty State - All Documents Filtered Out:
+https://dept.hennepin.us/hsphd/sa/itrm/dbrs/ECF%20Next%20Wireframes/Case%20Details%20%E2%80%93%20Content%20List%20%E2%80%93%20Empty%20State%20for%20Filters%20Applied.jpg

@@ -1,0 +1,118 @@
+Angular Tutorial
+https://www.youtube.com/watch?v=2ZFgcTOcnUg
+-- avoiding takeuntil rxjs leaks
+--- SubSink
+--- ngx-until-destroy (untilDestroy)
+-- NgRx Data
+--- convention => allow ngRx Data to automatically discover APIs, Models, .etc
+--- override convention
+---- can override names of APIs, Models, .etc
+
+JAMStack
+- Modern Web Application
+- JavaScript/Angular-APIs-Markup/HTML/CSS/BuildToolsForWebApps
+- Servers (NOT HERE)
+-- Why use Server-Less? - Don't worry about things in the cloud
+-- Don't worry about Security
+-- High Performance
+-- High Scalability
+-- Low Cost
+
+- JAMStack Application Architecture
+-- WEB BROWSER
+-- Azure Functions Proxy
+--- Serverless API
+--- HTTP Trigger (API Route)
+-- Database
+-- Azure Storage (Angular)
+
+-- Create Azure Functions
+
+- Master Subjects => If you don't care about storing data, this is good; else ngRx
+-- Use-case will be ECF Shared Library
+-- Subject => send data to subscribed observers. Any previously emitted data is not sent to new observers
+-- BehaviorSubject => send last data value to new observers. It will send data that was sent before subscriptions
+-- ReplaySubject => Previously sent data can be "replayed" to new observers. Replay everything or a subset. Similar to BehaviorSubject, but BehaviorSubject replays one and ReplaySubject replays all or a subset
+-- AsyncSubject => Emits the last value (and only the last value) to observers when the sequence is completed
+
+- EventBus => can be used with a DashBoard (with widgets and Mediator Patterns - man-in-the-middle pattern) 
+-- Loosely Coupled way
+@Injectable()
+export class EventBusService {
+	private subject$ = new Subject();
+	
+	emit(event: EmitEvent) {
+		this.subject$.next(event);
+	}
+	
+	on(event: Events, action: any): Subscription {
+		return this.subject$.pipe(
+			filter((e: EmitEvent) => e.name === event),
+			map((e: EmitEvent) => e.value))
+		).subcribe(action);
+	}
+}
+
+// Example
+export class CustomersListComponent {
+	@Input() customers: Customer[];
+	
+	constructor(private eventBusSvc: EventBusService) {}
+	
+	selectCustomr(cust: Customer) {
+		this.eventBusSvc.emit(new EmitEvent(Events.CustomerSelected, cust));
+	}
+	
+	// Subscribe
+	ngOnInit() {
+		this.subsink.add(
+			this.eventBusSvc.on(Events.CustomerSelected, (cust => this.customer = cust))
+		);
+	}
+	
+	ngOnDestroy() {
+		this.subsink.unsubscribe();
+	}
+}
+
+- Observable Service => Inventory watcher (observer pattern), web-sockets
+@Injectable()
+export class ObservableService {
+	latestProduct: Product;
+	
+	/// Always do this and never exposed the actual subject.
+	private inventorySubject$ = new BehaviorSubject<Product>(this.latestProduct);
+	
+	inventoryChanged$ = this.inventorySubject$.asObservable();
+	
+	addToInventory(product: Product) {
+		this.latestProduct = product;
+		this.inventorySubject$.next(product);
+	}
+}
+
+// Example
+export class ProductComponent {
+	@Input() products: Product[] = [];
+	
+	constructor(private inventorySvc: ObservableService) {}
+	
+	selectProduct(product: Product) {
+		
+	}
+	
+	// Subscribe
+	ngOnInit() {
+		this.subsink.sink =
+			this.inventorySvc.inventoryChanged$.subcribe(prod => this.products.push(prod))
+		;
+	}
+	
+	ngOnDestroy() {
+		this.subsink.unsubscribe();
+	}
+}
+
+-- Another state management tool like ngRx => Observable Store
+--- Observable Store => https://github.com/DanWahlin/Observable-Store
+--- rxjs-observable-store => https://www.npmjs.com/package/rxjs-observable-store and https://georgebyte.com/state-management-in-angular-with-observable-store-services/

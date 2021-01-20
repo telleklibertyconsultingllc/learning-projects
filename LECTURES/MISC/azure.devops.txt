@@ -1,0 +1,43 @@
+Azure DevOps
+- Azure Project - (KNOW)
+-- Summary - (KNOW)
+-- Dashboards
+-- Analytics View
+-- Wiki - (KNOW)
+
+- Azure Boards
+-- Work Items
+-- Boards
+-- Backlogs - (KNOW)
+-- Sprints - (KNOW)
+-- Queries
+-- Plans
+-- Retrospectives - (KNOW)
+-- Product Vision
+-- Estimate
+-- SpecMap
+
+- Azure Repos (GIT) - (KNOW)
+-- Files
+-- Commits
+-- Pushes
+-- Branches
+-- Tags
+-- Pull Requests
+
+- Azure Test Plans
+-- Test Plans
+-- Progress Reports
+-- Runs
+-- Load Test
+-- Test Cases
+
+- Azure Deployments
+-- Pipelines - (KNOW)
+-- Environments
+-- Releases - (KNOW)
+-- Library
+-- Task Groups
+-- Deployment Groups
+
+- Azure Artifacts

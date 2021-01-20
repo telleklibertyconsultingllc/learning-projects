@@ -1,0 +1,142 @@
+Angular Libraries
+- Requirements of a Library
+-- Platform independent
+-- Bundled and distributed
+-- Ahead-of-time compilation ready
+-- Typescript
+- Angular Package Format
+-- Recommended way to distribute angular packages
+-- File and metadata structure
+-- Supports various formats
+-- Angular Package Format (APF)
+-- Steps to produce an Angular Library
+--- Inlining all templates
+--- Compile it with "ngc"
+--- Build ESM2015, ESM5, UMD (Universal Module Definition) Formats
+- Creating Libraries in Angular
+-- Create a library with ng-packagr
+--- This does everything in the steps to produce an angular library
+--- npm install ng-packagr -g
+--- Configure package.json
+"ngPackage": {
+	"lib": {
+		"entryFile": "public_api.ts"
+	},
+	"dist": "dist"
+}
+- Create and use a component library
+
+Passing configuration to the Library
+export class LoggerConfig {
+	isProduction: boolean;
+	appPrefix: string;
+}
+
+NgModule()
+export class AngularConsoleLoggerModule {
+	public static forRoot(
+		configuration: LoggerConfig
+	): ModuleWithProviders {
+		return {
+			ngModule: AngularConsoleLoggerModule,
+			providers: [
+				{
+					provide: LoggerConfig,
+					useValue: configuration
+				}
+			]
+		};
+	}
+}
+
+export class AngularConsoleLoggerService {
+	constructor(private loggerConfig: LoggerConfig) {}
+	warn(message: string) {
+		if (this.loggerConfig.isProduction) {
+			return;
+		}
+		console.warn(message);
+	}
+}
+
+Switching dependency injection services from libraries in applications
+use abstract instead of interfaces
+
+Install a package npm install my-lib-folder/dist
+-- installed from a folder/dist
+npm link my-lib-folder/dist
+-- install the library to the global npm folder.
+-- links the package name to the folder you're currently in from the global npm folder to your consuming app. the changes are reflected when built. 
+cd my-lib-folder/dist
+npm pack 
+-- closest state to publishing state
+-- exactly what's going to be deployed to npm
+-- a .tgz file is created
+-- install tarbal file
+
+-- Install from /dist folder in library project
+--- install peer dependency
+---- angular.json => "preserveSymlinks": true,
+npm install ./dist/ecf-lib/hennepin-mn-ecf-shared-library-1.0.0.tgz
+npm uninstall @hennepin-mn/ecf-next-shared
+
+-- Link a library to a specific folder
+--- delete the folders from node_modules
+--- delete entries from package.json
+npm link ./dist/ecf-lib
+
+-- npm pack
+--- get rid of all refences of ecf-lib
+--- add script to package.json "cd dist/ecf-lib && npm pack"
+--- remove preserveSymlinks from angular.json
+npm install ./dist/ecf-lib-0.0.1.tgz /// must include the filename
+
+- Installing PACK
+-- Uninstall old library
+-- Install new library
+-- run "npm run build"
+-- run "npm start" or "ng serve"
+
+Deploying the library to NPM
+- semantic versioning => ways to standardize versioning of your library and let developers know about changes
+-- major, minor, patch
+--- major => Feature changes, could break backward compatibility, new changes will reset the major version 
+--- minor/patch => minor changes, does not break backward compatibility
+--- npm version patch 
+--- npm version major
+--- npm version minor
+-- Package Name (package scopes)
+--- should be a unique name in npm library
+--- should use Package Scopes (like namespaces for packages) => @hennepin/ecf-next-shared => @hennepin is the package scopes 
+--- public packages are free
+--- private packages are used when you paid for them
+- deploy our library to npm
+-- Publish a package
+--- login to npm
+--- Add readme file on how to use the package
+--- Publish with accessflag "public"
+--- Remove all sensitive information like passwords, credit card, etc.
+--- publish package
+1. add readme.md
+2. package.json => name => @hennepin/ecf-next-shared
+3. Increase the version using npm version major|minor|patch
+4. build the library
+5. npm login => to login to npm using the terminal
+6. npm publish --access public (DONT USE PUBLIC ACCESS FLAG)
+7. enter one-time-password => OTP
+8. View package on npm website
+9. Use the package in our applications
+10. npm install --save @hennepin/ecf-next-shared
+11. npm start
+
+BitLinks
+user: hennepinmnus
+email: tellek.liberty@hennepin.us
+password: Te$t!ng754
+
+token: NPM_TOKEN=ac18a1a6-12e9-4eec-8993-442eda313152
+npm config set scope @hennepin-mn --global
+
+In most cases, you or one of your dependencies are requesting a package version that is forbidden by your security policy.
+
+WARNING in ./node_modules/crypto-js/core.js Module not found: Error: Can't resolve 'crypto' in

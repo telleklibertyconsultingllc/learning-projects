@@ -1,0 +1,223 @@
+GIT
+- Update branch information in your local environment
+git remote update origin --prune
+
+- Rollback changes (COMMITTED OR STAGED)
+git reset --hard origin/development
+
+-- Rollback changes and preserve changes
+git reset --soft HEAD~1
+
+GIT FLOW Commands (https://danielkummer.github.io/git-flow-cheatsheet/)
+git flow feature [list] [-v]
+git flow feature start [-F] <name> [<base>]
+git flow feature finish [-rFkDS] [<name|nameprefix>]
+git flow feature publish <name>
+git flow feature track <name>
+git flow feature diff [<name|nameprefix>]
+git flow feature rebase [-i] [<name|nameprefix>]
+git flow feature checkout [<name|nameprefix>]
+git flow feature pull [-r] <remote> [<name>]
+git flow feature delete
+
+- Rename a branch
+git branch -m <old-branch-name> <new-branch-name>
+
+- Delete a Branch
+-- Delete with warning
+git branch -d <branch-name>
+
+-- Delete without warning
+git branch -D <branch-name>
+
+- Merging Branches (This is what John and Dale wanted to do)
+1. git checkout <target-branch>
+2. git merge <source-branch>
+
+- Comparing Branches
+git diff <branch1> <branch2>
+
+- Cherry-Pick
+1. git log --oneline
+   git log <branch-name> --oneline
+2. git checkout <branch-name>
+3. git cherry-pick <commit-squash-number>
+
+
+git cherry-pick [SQUASH-NUMBER]
+git cherry-pick [SQUASH-NUMBER] --no-commit
+
+git cherry-pick d5f7249c0ea16435a9c4fd273f14c1dd7555e635 --no-commit
+git cherry-pick ae336cd8 --no-commit
+
+git cherry-pick 82310fec
+
+git cherry-pick 98431b950c4869ac14bf36e22b681e885bcf9e68
+
+Advanced GIT Techniques
+- Configuring GIT
+-- User Account <=> Repository
+-- Repository (local)
+-- User Account (global)
+-- Git Installation (system)
+
+- Location
+-- Local => Repository/.git/config (Repository)
+-- /users/david/.gitconfig (user directory)
+-- /usr/local/etc/gitconfig (git Installation)
+
+- Set a git config value
+-- LOCAL
+git config --local user.name "David Tucker"
+-- GLOBAL
+git config --global user.name "David Tucker"
+-- SYSTEM
+git config --system user.name "David Tucker"
+
+- Common Configuration Settings
+-- Identity Settings => name, etc
+-- File editor
+-- Merge tool
+-- Terminal Color output
+-- Command aliases
+- View Config
+git config --list --show-origin
+git config user.name
+
+- Remove a specific setting for a specific level of config
+git config --global --unset user.name
+
+- Configuring Repository File Handling
+-- .gitignore => allows us to determine which files can be ignored within the Repository
+-- .gitattributes => allows us to set specific configuration values for how the files are handled
+
+- Add local branch to remote branch
+git remote add origin git@github.com/...
+
+-- sub modules
+git submodule add [git-url] folder/sub-folder
+
+git status
+git config --global status.submoduleSummary true => gives more or verbose information on the submodule
+git config --global diff.submodule log
+
+-- fully initilizae
+git submodule init
+git submodule update
+
+git fetch
+git checkout Beta
+git status
+git commit -m "update submodule to beta"
+git submodule deinit external/submodule-name
+git rm external/submodule-name
+git status
+git commit -am "removing submodule"
+
+- Using GIT submodules with Teams
+-- Clone and init all submodules in Git Repo
+git clone --recursive [git-url] repo
+git submodule foreach 'cat .gitmodules'
+-- Do these 3 steps every time you pull submodules working in a team!!!!!
+git pull
+git submodule sync --recursive
+git submodule update --init --recursive
+-- AVOID Checking in from parent using a submodule. Always do the below.!!!!!!
+git config --global push.recurseSubmodules on-demand (once this settings is done, do a push)
+git push
+
+- Git Workflow
+-- Developing a local workflow for running tests and linting per commit
+-- Enforcing a commit message template on the server
+-- Enabling developers to work more efficiently
+
+- Git Hooks
+-- Allow to optimize workflow
+--- a pre-defined script that is executed in response to a specific action that has occurred within your Git Repository.
+--- Two types
+---- Client-side Hooks
+----- pre-commit
+----- prepare-commit-msg
+----- commit-msg
+----- post-commit
+---- Server-side Hooks
+----- pre-receive => push from client to server
+----- update => reject something or not
+----- post-receive
+NOTE: Cannot enforce policies as local repository can be reconfigured
+-- Client-side Git Hooks Use Cases
+--- linting
+--- tests
+--- Verifyin no TODO's in committed code
+--- Preparing a commit message
+--- Cleaning up files after specific actions
+-- Server-side Git Hooks Use Cases (Enforces policies)
+--- For rejecting pushes based on overall policies => pre-receive hook
+--- For evaluation of individual branch pushes => update hook
+--- For notifications and hooks after the commit => post-receive
+-- Use Cases
+--- Enforcing commit message format
+--- Enforcing user identity information
+--- Enforcing the signing of tags and/or commits
+--- Blocking access for specific IP Addresses
+--- Blocking specific file extensions
+
+NOTE: All Git Hooks are stored in .git/hooks folder
+
+- Creating custom scripts
+-- file should start with git-*
+git-testscripts
+echo "testing this."
+
+- GIT Bisect Tool
+-- Version Control Benefits
+git bisect start
+git bisect good-commit
+git bisect bad-commit
+
+# GIT Understanding - The Big Picture
+
+- Git tracks changes to files or source codes
+- Distributed Version Control
+
+- git add => adds files or stage files to a snapshot
+- git commit => creates a snapshot with message that states what is within the snapshot
+- git diff [first-commit-hash] [second-commit-hash] => tells the changes between two commit hashes
+- tracking a bug
+-- backing out a change =>
+git checkout [older-commit-hash]
+git checkout [latest-commit-hash]
+
+git checkout [branch-name]
+
+- Merging
+Branch-Premium
+1. git checkout premium
+2. git merge master => This contains all the changes from Master and Master won't move changes to premium changes to master
+
+- GIT Eco-Systems
+-- Git Based services (Distributed Source Control System)
+--- Git Integration => VS Code, Visual Studio, Sublime Text, Eclipse, SourceTree, .etc
+--- Team Tools => Jenkins, Travis CI, Microsoft Teams, JIRA
+--- Cloud Providers => AWS, Heroku, Azure DevOps
+--- Git Based services
+---- GitLab
+---- GitBucket
+---- GitHub
+
+- Adding Git Project to Remote Repository
+echo "edit file contents"
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin [Azure DevOps Repo URL]
+git push -u origin master
+
+- OR
+git remote add origin [Azure DevOps Repo URL]
+git push -u origin master
+
+- RESET
+-- git reset --soft [commit-hash] => removes from staging area to make more edits
+-- git reset --mixed [commit-hash] => removes from staging to working directory
+-- git reset --hard [commit-hash] => throws away the changes

@@ -1,0 +1,27 @@
+CSS Fixes
+- Content List
+-- Menus are orange when hovering
+-- Refresh List hovering is wrong, check QA
+-- Calendar filtering fields are wrong, check QA
+-- Checkbox background-color should be the same as "Show" button to the right
+-- Select all checkbox set to true moves or shifts columns in table
+
+- Tables
+-- Vertical lines
+
+- Person Case List
+-- Accordion Header Program Text should be #0058a6 
+
+- CSS defects
+-- Person Details and Address History
+--- Sub Header = should have 20px left margin away from page title (Take Screen shot - person-sub-header-defect.png)
+
+
+- Anoka - August 10th => 159
+- CenterPoint Energy
+- NorthPoint/IC System
+- CERT => IMPORTANT Phone: 651.266.8904
+
+- Joe Bryant
+-- Phone
+-- Laptop

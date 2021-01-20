@@ -1,0 +1,9 @@
+[‎12/‎13/‎2019 11:57 AM]  John R. Holcomb:  
+It does not have its own PBI but the SMI ID and the Prism MCI search PBIs are in this sprint and I am thinking they would need the validation in place before testing.  The PBIs are 5070 and 44762.
+ 
+[‎12/‎13/‎2019 12:00 PM]  John R. Holcomb:  
+Jonathan chatted with me about what he is hoping for validation.  Basically the user can pick an Id type and type an id in and the search button remains disabled until the user selects the id type and enters a valid id  for that type.  The user is free to type whatever they want and the search button remains disabled until the entered number is valid.
+ 
+[‎12/‎13/‎2019 12:07 PM]  John R. Holcomb:  
+Sure.  The MCI search has a requirement to not show blocked cases, I am working on that.  It sounds like from Sandy that I need to wait for a prism person who is properly blocked though.
+ 

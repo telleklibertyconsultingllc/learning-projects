@@ -1,0 +1,61 @@
+Microsoft Graph API
+- https://graph.microsoft.com/
+- One endpoint to rule them all
+- Single resource that proxies multiple Microsoft Services
+- Allows for easy traversal
+- With the same endpoint you can Query multiple things.
+
+RE: ECF User Guide Opinion Needed
+I’m interested in hearing what Harry has to say considering he will do most of the publishing. 
+
+Dev – any concerns about any of these options? Or do we just need to pick one? 
+
+Thanks, 
+
+Kristen Tario
+ECF Product Owner
+Health & Human Services IT
+--------------------------------- 
+From: Rachel A Larson <Rachel.Larson@hennepin.us> 
+Sent: Thursday, April 23, 2020 1:47 PM
+To: Harry I. Silver <Harry.Silver@hennepin.us>; Kristen Tario <Kristen.Tario@hennepin.us>; Tellek E Liberty <Tellek.Liberty@hennepin.us>; Bryan J. Reichel <Bryan.Reichel@hennepin.us>; Ken Murphy <Ken.Murphy@hennepin.us>; Jonathan Healy <Jonathan.Healy@hennepin.us>; John Mumma <John.Mumma@hennepin.us>
+Subject: ECF User Guide Opinion Needed
+
+Greetings-
+After meeting with the SharePoint team this morning, it sounds like we have 3 options for the ECF User Guide. I’ve listed them below along with my understanding of the risk/benefit for each.
+Harry- I’m hoping you can add to the pros/cons of the Azure option and answer some of the questions included in the table.
+
+“Regular” SharePoint Site	Teams SharePoint Site	Azure
+Risk	Benefit	Risk	Benefit	Risk	Benefit
+•	Need Enterprise approval to use Flare
+•	If we want, style of site to match ECF Next, we would need to request an exception from Enterprise to deviate from the template
+•	For search purposes, we would need to request another, separate site for the ECF User Guide. We cannot re-use the ECF Support site. (Unless Harry indicates Flare allows us to limit search to a specific library)	•	Known format/program
+•	No change request required for updates
+•	Would allow Harry to have someone as back up if needed.
+•	We could possibly move forward without Flare, but we would lose functionality that Flare gives us.	•	By default, the SP site comes with a team. There is no way to limit the collaboration functionality of that team.
+o	SCAs would need to set up SharePoint site access to everyone and we would need to limit access to the Team.
+•	It seems the county has been changing “chat” tools often. How long Teams will be used is an unknown.	•	No existing governance.
+•	No approval required to use Flare.
+•	Team functionality could be used to communicate needed changes/plan & track progress.	•	Requires change request to update pages?
+o	Why is unclear
+o	Could push back against this more.
+•	More questions:
+o	Can Harry have a back-up?
+o	Is there an associated cost?
+o	What kind of governance exists in Azure?	•	Harry is already doing this for Stephanie Mitchell’s team?
+
+Do any other developers need to be included in this email chain/discussion?
+Any feedback, additions to the table, and/or questions are welcome.
+
+Rachel A Larson
+Principal Planning Analyst
+HHS | Internal Services | ECF.Help
+Office: 612-221-7178
+Rachel.Larson@hennepin.us | ECF.Help 
+
+ 
+
+
+Strengths: Learner | Achiever | Relator | Intellection | Analytical
+
+

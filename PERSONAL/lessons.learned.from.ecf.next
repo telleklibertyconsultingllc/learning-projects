@@ -1,0 +1,22 @@
+Lessons Learned from ECF Next
+- Responsive design
+-- If ECF Next is to support mobile devices, we have a lot of problems. 
+--- PRIMENG p-grid is not robust enough
+--- angular flex layout for more complex UX 
+---- Angular Flex Layout is good for having different UX experiences for each breakpoints. Looks different on mobile, tablet and desktop
+--- bootstrap
+- Selecting UI Components - THIS IS VERY IMPORTANT
+-- Select library that can be easily customized
+-- Mostly, select library that have all or most functionalities and can only customize CSS
+-- Eliminates the idea of creating a second reusable component or directive
+- Considering a standard enterprise UX experience for all Hennepin's web applications
+-- Allows all Hennepin's UI to have the same look and feel. Jonathan can address this.
+- Reuse - Angular Libraries. ECF has more than one application, so, we need to have a better way of code maintenance
+-- Number of applications to use
+
+-What are the top things that we have done best?
+-What are some other successes we have had?
+-What could we do different?
+-- planning for responsive applications first instead of later
+-- selection of ui components
+--- problem, had to customize functionalities

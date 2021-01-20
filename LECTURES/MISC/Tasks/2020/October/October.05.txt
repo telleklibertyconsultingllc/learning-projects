@@ -1,0 +1,16 @@
+Sep-22 TODOs
+- Dental and Health Insurance Policy Payments
+--  $460.95
+-- 866.910.6173 Billing 866.414.7880
+-- Pay on Monday October 12th
+- Changed Health Insurance to be paid on the 25th of every month 
+-- Do this on Monday
+
+- Calls 
+-- Comfort Filing Status - Residential Alien
+-- Tellek Filing Status - US Citizen
+
+- Determine Software Needed for Liberty, LLC
+-- QuickBooks ($20.00)
+-- Microsoft 365 Business Premiums ($40.00)
+-- G-Suite

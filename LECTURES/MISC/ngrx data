@@ -1,0 +1,68 @@
+ngrx Data
+For example,
+- if the persistence action is to delete a hero with id=42 and
+- the root path is 'api' and
+- the entity name is 'Hero', then
+- the DELETE request URL will be 'api/hero/42'.
+
+When the persistence operation concerns multiple entities, the DefaultDataService substitutes the plural of the entity type name for the resource name.
+
+The QUERY_ALL action to get all heroes would result in an HTTP GET request to the URL 'api/heroes'.
+
+The DefaultDataService doesn't know how to pluralize the entity type name. It doesn't even know how to create the base resource names.
+
+It relies on an injected HttpUrlGenerator service produce the appropriate endpoints. And the default implementation of the HttpUrlGenerator relies on the Pluralizer service to produce the plural collection resource names.
+
+The Entity Metadata guide explains how to configure the default Pluralizer .
+
+Configure the DefaultDataService
+
+The collection-level data services construct their own URLs for HTTP calls. They typically rely on shared configuration information such as the root of every resource URL.
+
+The shared configuration values are almost always specific to the application and may vary according the runtime environment.
+
+The NgRx Data library defines a DefaultDataServiceConfig for conveying shared configuration to an entity collection data service.
+
+The most important configuration property, root, returns the root of every web api URL, the parts that come before the entity resource name. If you are using a remote API, this value can include the protocol, domain, port, and root path, such as https://my-api-domain.com:8000/api/v1.
+
+For a DefaultDataService<T>, the default value is 'api', which results in URLs such as api/heroes.
+
+The timeout property sets the maximum time (in ms) before the ng-lib persistence operation abandons hope of receiving a server reply and cancels the operation. The default value is 0, which means that requests do not timeout.
+
+The delete404OK flag tells the data service what to do if the server responds to a DELETE request with a 404 - Not Found.
+
+In general, not finding the resource to delete is harmless and you can save yourself the headache of ignoring a DELETE 404 error by setting this flag to true, which is the default for the DefaultDataService<T>.
+
+When running a demo app locally, the server may respond more quickly than it will in production. You can simulate real-world by setting the getDelay and saveDelay properties.
+
+Provide a custom configuration
+
+First, create a custom configuration object of type DefaultDataServiceConfig :
+
+      
+
+const defaultDataServiceConfig: DefaultDataServiceConfig = {
+  root: 'https://my-api-domain.com:8000/api/v1',
+  timeout: 3000, // request timeout
+}
+
+    
+
+Provide it in an eagerly-loaded NgModule such as the EntityStoreModule in the sample application:
+
+      
+
+@NgModule({
+  providers: [{ provide: DefaultDataServiceConfig, useValue: defaultDataServiceConfig }]
+})
+
+A custom DataService
+
+You don't have to override members of the DefaultDataService. You could write a completely custom alternative that queries and saves entities by any mechanism you choose.
+
+You can register it the same way as long as it adheres to the interface.
+
+      
+
+// Register custom data service
+entityDataService.registerService('Hero', peculiarHeroDataService);

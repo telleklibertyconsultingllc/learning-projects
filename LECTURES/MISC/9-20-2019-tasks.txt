@@ -1,0 +1,17 @@
+- finish user store - done
+- setup chrome debugger
+- finish prism store - done
+-- change reducer to update new changes
+- alert Boaz about prism store
+- start unit test
+- add error message for smi login whenever user login is incorrect
+- whenever user hits F5 or reload the page redirect to login page.
+-- on filentlogin page
+-- on loginsmipage
+-- on case search page
+
+-- remove unwanted files first - DONE
+-- copy new and changed files next
+-- test changes
+
+-- undo changes in development ECFUI folder

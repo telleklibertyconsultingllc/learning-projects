@@ -1,0 +1,5 @@
+- delete node_modules folder
+- delete package-lock.json
+- execute 'npm install -g typescript@3.4.5'
+- execute 'npm install --save-dev typescript@3.4.5'
+- execute 'ng build --base-href /ecf/ --configuration=qa'

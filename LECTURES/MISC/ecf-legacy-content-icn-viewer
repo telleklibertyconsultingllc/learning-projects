@@ -1,0 +1,41 @@
+Editing Content - All will be provided by content list
+- mimetype, 
+- icnviewer from content list 
+- Tiff - nothing to be done with tiffs. no way to edit. Don't do anything with tiff and PDF. Comes for free with ICN viewer. Annotations.
+- office documents
+- pdf - regular pdfs
+- image files
+- video files
+- text documents - edit file, placed in network shared folder
+
+- Audio/Video
+
+Adobe LifeCycle files - editing
+- Acrobat reader displays the pdf in edit mode
+- return url 
+- upload documents 
+- displaying documents 
+- FUTURE/LATER
+
+- Display Types
+
+FOCUS - Display each of the content types
+- ICN Viewer
+- Regular Adobe documents that can't be displayed with ICN Viewer
+- Blue/Red types outside the browser
+-- Blue types - XML in filenet
+-- Red types - stored as PDF can call back to the lifecycle for things that are needed
+
+-- EDGE need acrobat 8 or higher
+
+- copy file to network share
+-- Azure Web 
+
+- ICN Viewer - future => takes care of viewing and not editing documents
+
+- red links have been viewed
+- blue links have not been viewed
+- hope for
+-- drag and drop capabilities for file uploads
+
+ICN Viewer

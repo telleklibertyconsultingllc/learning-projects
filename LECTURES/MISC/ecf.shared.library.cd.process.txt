@@ -1,0 +1,102 @@
+ECF Shared Library CD Proposal/Solution
+Agenda
+- Understand the Problem (Overview) - Tellek/Boaz
+- Overview of ECF Shared Library Organization in NPM - for John and Dale
+
+Solution 1
+    - Create Several Organizations in NPM 
+        - @hennepin-itrm/ecf-shared - PROD
+        - @hennepin-itrm-dev/ecf-shared - For Developers
+        - @hennepin-itrm-qa/ecf-shared - For QA
+    - Create several entries in .npmrc files. 
+        - Modify Azure DevOps Pipelines for DEV, QA and STG/PROD to use .npmrc Files
+        - Create and Modify powershell publish-scripts NPM files ONLY (PACK Scripts are not affected here)
+    - Manage Versioning - ECF Shared Library MAJOR Version should match Application MAJOR Version????
+.npmrc file contents
+@hennepin-itrm:registry=https://registry.npmjs.org/... OWN VERSIONS (Release 20.1)
+@hennepin-itrm-devqa:registry=https://registry.npmjs.org/... OWN VERSIONS (1.0.xxx)
+always-auth=true
+//registry.npmjs.org/:username=boazkallagunta
+//registry.npmjs.org/:_password=RWNmTmV4ITJvMm8k
+//registry.npmjs.org/:email=boaz.kallagunta@hennepin.us
+============================================================
+
+Azure DevOps Git Repo
+PROD_20_3 => @hennepin-itrm
+- install npm
+- install project dependencies
+-- pipeline = uninstall @hennepin-itrm-devqa ****
+-- pipeline = npm run publish-library-prod (uid/pwd) => @hennepin-itrm/ecf-next-shared
+--- package.json => @hennepin-itrm/ecf-next-shared
+
+DEV_20x => developers @hennepin-itrm-devqa
+- LOCAL DEV PC
+- package.json => @hennepin-itrm-devqa/ecf-next-shared
+- npm run publish-library-devqa (uid/pwd)
+- *** pipeline = npm run publish-library (uid/pwd)
+
+Developers Environment
+- publish-library-devqa.ps1 => @hennepin-itrm-devqa
+
+============================================================
+
+Solution 2
+- Use versioning instead of having separate Organizations
+    - MAJOR => Sprint number
+    - MINOR => ### (normal digits), can update this value and patch values when deploying to NPM
+    - PATCH => Normal Update
+- dev branch code = DEV/QA => Sprint.###.patch = 26
+- PROD branch code = PROD/STG => Release.###.patch - 120.1
+- One organization = @hennepin-itrm/ecf-next-shared
+
+.npmrc file contents
+@hennepin-itrm:registry=https://registry.npmjs.org/
+always-auth=true
+//registry.npmjs.org/:username=boazkallagunta
+//registry.npmjs.org/:_password=RWNmTmV4ITJvMm8k
+//registry.npmjs.org/:email=boaz.kallagunta@hennepin.us
+============================================================
+
+OTHER PROPOSALS???
+
+MAJOR.MINOR.PATCH
+SPRINT 26
+QA/DEV   = 20.1.145
+PROD/STG = 20.2.145 => STG
+
+STG Update
+QA/DEV   = 20.2.202
+PROD/STG = 20.2.202 => STG
+
+QA/DEV   = 20.2.202
+
+@hennepin-itrm:registry=https://registry.npmjs.org/
+DEPLOY1
+QA/DEV = 1.0.200
+PROD/STG = 1.0.200
+
+DEPLOY2
+PROD/STG = 1.0.301 & 1.0.200
+- Make a change1
+QA/DEV = 1.0.210
+- Make a change1
+- Dev changes
+- Update DEV/QA Version After your code merging
+- Publish New library to NPM (1.0.302>)
+
+Sprint 1
+- Dev 1.0.1
+Sprint 2
+- Dev 1.0.1
+
+Pre-release process
+- Create branch
+-
+
+Release 1
+- stg = 1.0.1-alpha
+- code changes Bug fixes
+- 1.0.2
+- dev = 1.0.3
+Release 2
+- stg =

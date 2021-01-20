@@ -1,0 +1,111 @@
+ECF Shared Library
+username: boazkallagunta
+password: EcfNex!2o2o$
+email: boaz.kallagunta@hennepin.us
+
+My Request -
+Central IT Phone Number - 6123486662
+
+ecf legacy: http://ecfqa/Ecf/
+
+prism:
+001201219601 - Timeout number
+001201224901 - content list audio content, have "Tellek Audio"
+001201225801
+001200000901
+001201222801 - content list - DEV
+001201262401 - content list audio content
+001201224902 - content list audio content
+001201218601 - content list audio content QA only
+001201226801 - contains Audio files
+001201218301 - DEV with sent person/case document
+
+maxis:
+605359
+605492
+605335
+607451 (no smi numbers)
+605358 (contains primary and CCA worker)
+606248 - MAXIS ERROR - no content list data
+535602 - content list audio content
+
+mets
+0088888888 - content list - DEV
+1234556789
+1234566789
+0011224455
+1234567889
+1234567899 - content list (90 days) - DEV and QA - have ICN Viewer Types
+1122334456
+4477889911
+0011448899
+2299446633
+
+SSIS:
+103300878
+208926224
+101624365
+208926551
+000488159
+000488160
+393304955 - SSIS ERROR - no content list data
+000490637 - content list with audio contents
+000489472 - content list with audio contents
+000492788 - content list with audio contents
+000490880 - content list with audio contents
+000488192 - content list with audio contents
+000494873 - content list with audio contents
+000503319 - content list with audio contents
+001203578 - content list with audio contents
+208824025 - content list with audio contents
+
+MAXIS PMI:
+08152291
+08149501 - content list in DEV
+08149437
+08152316
+08152312
+08152320
+08149441 - content list
+08149536 - content list
+
+PRISM MCI:
+0012012199
+0012012607 - unauthorized account PWSMI47
+0012012619 - unauthorized account PWSMI47
+0012012249
+0012012208
+0012012206
+0012012228 - content list
+0012012268 - content list
+
+SMI
+002822441 - content list
+002822507
+392316204
+000492788 - content list
+
+MN SURE:
+0393042867
+0393042856
+5564185693
+7403467170
+
+SSIS SWNDX
+99000106 - content list
+99000200 - content list
+Profile File
+5:05 Animal Humane Society Crystal
+
+video for code review pull requests - https://www.youtube.com/watch?v=Tf4Q4n_46fk
+FileNet Logon for SSIS Access
+userid: wfcf11
+password: FileNet00!
+SMI Logon should in case pwsmi47 is locked out
+userId: pwsmi70
+password: Testing13!
+SMI Logon should in case pwsmi70 is locked out
+userId: pwsmi47
+password: Testing99!
+userId: wfcf18
+password: FileNet00!

@@ -1,0 +1,50 @@
+Product Backlog Item 81696
+-- Version Status display
+--- Initial Status => Available
+--- Checked Out => Checked Out button clicked
+--- Checked Out by [Network ID]
+--- Adobe Blue Documents
+---- Checkin on on form "Cancel Check Out"
+--- Adobe Non-blue Documents
+---- "Check In" and "Cancel Checkin" Buttons
+
+-- Buttons
+--- Checkout button
+---- Checkout successful
+----- Checked Out by [Network ID] + Buttons
+----- Display User information when Network ID is clicked
+----- Refresh Content list grid
+----- Display Toastr Message => "[Title of Content] is currently checked out to Network ID"
+---- Checkout unsucessful
+----- Refresh content list grid
+----- Version Status will display text "Checked Out by [Network ID]" and the "Cancel Check Out" button
+----- Display UserInfo for Network ID
+----- Display Toastr Message => "[Title of Content] is currently checked out to Network ID"
+
+--- Cancel Checkout
+---- Display prompt => "Are you sure you want to cancel checkout for this content?
+----- "Keep Content Checked Out"
+------ Do nothing
+----- "Yes, cancel checkout"
+------ Refresh content list
+------ Status => Available + Check Out Button
+
+--- Checked out by other Users
+---- Version Status will be displayed as "LOCKEDICON + Checked Out by [Network ID]"
+---- User information
+
+--- Check Out ERROR
+---- Display Toastr Message => Check Out Failed: Please try again later or contact the IT Service Desk
+
+--- File type not editable and cannot be applied with ICN Viewer
+---- Version Status => Final
+---- No Buttons
+
+--- File type not editable and can be applied by ICN Viewer
+---- Version Status => Annotations only
+---- No button
+
+-- Roles
+-- HS.APP.ECF.HSPHD.Prod.Support
+-- HS.APP.ECF.HSPHD.[Insert Area].SME roles
+-- User Initiates Check Out

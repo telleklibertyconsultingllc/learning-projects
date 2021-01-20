@@ -1,0 +1,64 @@
+- Training (November - December)
+- November 25th - 29th
+2. ASP.Net Core RestFul Services
+-- Authentication and Authorization in ASP.Net Core
+-- Building ASP.NET Core Hosted Services and .NET Core Worker Services
+-- ASP.NET Core Health Checks
+-- Getting Started with ASP.NET Core SignalR
+3. Entity Framework .Net Core
+4. Windows Communication Services
+5. MicroServices
+6. Solution Architect
+7. C#.NET
+8. SQL Server
+
+- Before December 6th
+- Others (After December 6th) 
+9. .Net Developer WITH Azure
+10. Azure DevOps
+-- Creating Pipelines
+-- Creating Releases
+11. Automation with Windows PowerShell Scripts
+https://app.pluralsight.com/library/courses/automation-powershell-scripts/table-of-contents
+12. REVISIT => ASP.NET Core 3.0: The MVC Request Life Cycle
+====================================
+DONE
+1. Azure - DONE
+-- Azure Cloud Concepts - DONE
+-- Azure Services and Concepts - DONE
+--- Azure App Service - are traditional web hosting
+---- Web Apps
+---- Services/API
+---- Mobile Apps
+--- Azure Web Jobs
+---- Web Jobs are like Windows Services
+--- https://<your app service name>.azurewebsites.net
+---- You can use your own custom domain name
+--- You need an App Service Plan (BILLING)
+- Serverless Compute
+-- Azure Functions
+--- Run custom code initiated by triggers
+-- Azure Logic Apps
+--- Designer in portal
+--- Initiated by triggers
+--- Something like Workflow
+-- Azure Event Grid
+--- Connects data sources and event handlers
+--- Event/topics/messaging
+
+- Azure CDN
+-- Static Data
+--- point-of-presence location (CDN Region)
+-- DSA (Dynamic Site Accelaration)
+--- Object Prefetch => parses html and serves embedded images and scripts
+--- Adaptive Image Compression => monitors network quality and provides smaller files when network speed is slower
+
+- Azure Data
+-- Structured or Relational Data
+-- Unstructured data (File/Blob/VM)
+--- Blob => unstructure storage
+--- File => for files
+--- Disk => 
+--- Table => cosmo DB
+--- Queue => store and retrieves messages (Topics/Events)
+-- Semi Structured Data (NoSQL)

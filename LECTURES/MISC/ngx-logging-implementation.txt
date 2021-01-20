@@ -1,0 +1,35 @@
+NGX-LOGGING API 
+
+- RESEARCH: message sent to Logger API (Header Information) ngx-logging can allow customization of passing header information
+method
+- methodname => log
+-- What information should be sent?
+- params
+-- message
+-- severity type => debug, exception, warning, info, .etc
+-- stack trace
+
+- two types of logging
+-- testing => browser console logging (turn off ONLY in UAT/PROD)
+-- Support Issues => ngx-logging (turn off LOCAL)
+--- https://devecfnext.hennepin.us/ecf/
+--- https://qaecfnext.hennepin.us/ecf/
+--- https://stgecfnext.hennepin.us/ecf/
+--- https://ecfnext.hennepin.us/ecf/
+
+- ? Find out mapping between 
+
+
+- development/local UI environment => turn it off => browser console 
+- turn on/off
+- environment.ts
+--- severityType: exception => NULL
+---- Exception => STG and PROD
+----- More detailed Stack Trace Message
+---- Exception => QA (tell them to give the time and date of the error)
+----- More detailed Stack Trace Message
+-- LOCAL = turn o
+-- DEV 
+-- UAT
+-- PROD
+-- STG

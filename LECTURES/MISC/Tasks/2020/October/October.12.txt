@@ -1,0 +1,20 @@
+TASKS
+- 8AM <=> 2PM (WORK)
+-- Hennepin
+--- DONE
+
+--- PBIs
+
+--- DEFECTS
+---- Check for alternative to view iFrame (DONE)
+
+- 2PM <=> 4PM (Training)
+-- ASP.Net Core
+--- Improving .NET Core MVC Apps Using Extension Points
+-- Solution Architect
+--- 
+
+South Dakota
+- Rapid City
+- Mount Rushmore
+- Bathland

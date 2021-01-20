@@ -1,0 +1,24 @@
+Functional Testing types include:
+    Unit Testing
+    Integration Testing
+    System Testing
+    Sanity Testing
+    Smoke Testing
+    Interface Testing
+    Regression Testing
+    Beta/Acceptance Testing
+
+Non-functional Testing types include:
+    Performance Testing
+    Load Testing
+    Stress Testing
+    Volume Testing
+    Security Testing
+    Compatibility Testing
+    Install Testing
+    Recovery Testing
+    Reliability Testing
+    Usability Testing
+    Compliance Testing
+    Localization Testing
+

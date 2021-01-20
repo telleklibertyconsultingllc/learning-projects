@@ -1,0 +1,6 @@
+Redux demo
+- Installation site => https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+- Viewing State transactions
+- Understanding state differences
+- Displaying multiple sites with redux (DONT DEMO THIS BECAUSE OF TIME)
+- Turning on/off logging in chrome in other environments. 

@@ -1,0 +1,20 @@
+September 23 To-do
+- Unit tests
+- Remove session storage and add to user service
+- Test session timeout - DONE
+- Case sidebar default selection - DONE
+- Fix issue with chrome debugger
+
+Sep 23 Scrum Meeting
+- Friday
+-- Prism store header
+-- Refactor Prism store, removed address
+-- Added User Store
+- Today
+-- Unit tests
+-- Defects
+
+49136
+Sep 24 Scrum Meeting
+- unit tests
+- handle defect Shakil talked about

@@ -1,0 +1,11 @@
+AUGUST TRAINING
+-- The Complete C# Programming Course => two days Max
+-- How To Become An Outstanding Solution Architect 
+--- Section 1: Introduction - DONE
+--- Section 2: The Architect and The Team - DONE
+--- Section 3: What Makes A Great Architect?
+--- Section 4: Designing A Software Architecture
+--- Section 5: Architecture Design Patterns
+--- Section 6: Designing Layers, Components And Services
+--- Section 7: Architecture Considerations
+--- Section 8: Conclusion

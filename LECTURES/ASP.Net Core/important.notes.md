@@ -1,0 +1,21 @@
+# Important ASP.Net Core Topics
+
+- Authentication
+-- OpenId
+-- OAuth
+-- Microsoft Azure AD
+- HealthChecks
+-- AspNetCore.HealthCheck.SqlServer
+-- APIs
+-- Look for third party options for HealthChecks
+-- Write custom healthchecks
+- Logging
+- Dependency Injection
+-- AutoFac
+-- AutoMapper
+- MVC Lifecycle
+- Routing
+- Extensions
+-- Extending the MVC Pipeline
+- SignalR
+- Hosted Services and Core Worker Services

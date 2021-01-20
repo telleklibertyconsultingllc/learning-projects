@@ -1,0 +1,14 @@
+Basic Search Tasks
+- input field should clear only the text box
+- radio buttons should never be cleared when input text field is cleared
+- remove validator.required from both case and person input fields
+- when you leave focus, show red button
+
+Global Validator
+- add custom validator for handling required fields 
+-- Person - add validator helper logic for person from searchPerson click event
+-- Case - add validator helper logic for case from searchCase click event
+
+Advanced Search
+- add directive for showing conditional required left border
+- minimum required fields

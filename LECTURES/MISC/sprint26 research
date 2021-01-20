@@ -1,0 +1,14 @@
+Additional Info = custom validators
+- SSN or Alien Id can be entered, but not both.
+- DOB or Age can be entered, but not both.
+- If DOB is entered, you must also specify either Last Name or SSN/Alien ID
+- If Age is entered, you must also specify either Last Name or SSN/Alien ID.
+- If SSN or Alien Id is not filled in, they must have last name.
+- The First Name cannot contain special characters
+- The Last Name cannot contain special characters.
+- Alien Id format must be A followed by 9 numeric values. Example A123456789
+
+PDF Viewers
+- https://www.npmjs.com/package/ngx-extended-pdf-viewer => MOZILLA problem
+- https://github.com/vadimdez/ng2-pdf-viewer
+

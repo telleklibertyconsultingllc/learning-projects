@@ -1,0 +1,61 @@
+Tools
+- ChromeVox
+- g.co/dev/speedtoolsoverview
+
+ADA Compliant
+- lighthouse training
+-- Blueprint for Web Performance Boosts Success
+--- 1. Wanting to know the current status of the page
+---- Are we doing well? Pagespeed Insights WebApp
+--- 2. Lighthouse Stack Packs => A feature that allows Lighthouse to recommend specific features about your sites
+--- 3. New Lighthouse UI
+--- 4. Field Metrics over time => CrUX Dashboard CrUX (Chrome User Experience)
+--- 5. You want to quantify user's experience => Load is not a single moment in time
+---- First Paint (FP)
+---- First Contentful Paint (FCP)
+---- First Input Delay (FID)
+---- Layout Stability
+---- Largest Contentful Paint
+---- Taxonomy of Speed Tooling
+
+1. Blueprint for your Foundation
+-- Benchmark your performance with PageSpeed Insights
+-- Iterate with Lighthouse via DevTools' Audits Panel
+-- Track your field data with the Chrome User Experience Report (CrUX) Dashboard
+-- Understand key speed metrics
+2. Techniques
+3. Robust 
+
+- A feature is only as good as how performant it is
+-- How website owners typically deploy features:
+--- Step 1: define purpose and target audience
+--- Step 2: determine content
+--- Step 3: select structure
+--- Step 4: specify navigation system
+--- Step 5: design the look and feel
+--- Step 6: test, publish and maintain
+
+- Performance is about solving business problems
+- After understanding your performance problems, you must set performance budgets
+-- Define a budget file (simple-budget.json)
+[{
+	"path": "/",
+	"resourceSizes": [
+		{
+			"resourceType": "script",
+			"budget": 125
+		},
+		{
+			"resourceType": "stylesheet",
+			"budget": 125
+		}
+	],
+	"resourceCounts": [
+		{
+			"resourceType": "total",
+			"budget": 35
+		}
+	]
+}]
+-- Use your budget in Lighthouse
+lighthouse youtube.com --budget-path=./simple-budget.json

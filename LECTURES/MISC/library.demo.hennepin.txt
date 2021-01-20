@@ -1,0 +1,36 @@
+ECF Shared Library DEMO
+- Overview of libraries in Angular
+-- Purposes
+--- 1. Used for resuable code in multiple applications
+---- Can be used for multiple Angular applications
+---- Can be used for multiple Angular and other JavaScript Framework Applications (like React, .etc)
+--- 2. Custom - can be used for a single application, but, you have a lot of teams developing features on a single angular application
+
+- Creating a Library
+-- 1. Recommendation by Angular - Definition used by Angular
+--- Single Angular Application with multiple projects
+--- Modularize or Composite Applications (similar like Managed Extension Framework (MEF), PRISM, UNITY in .Net Applications)
+-- 2. Building Library as a stand alone
+
+- Building a Library
+-- Building a library
+
+- Consuming a Library
+-- Coding LifeCycle of a Library
+--- Compiling
+---- NPM Pack
+---- Use the path with tsconfig
+--- Debugging
+---- Install NPM Pack in your application
+---- Step through code
+----- Step through Library Project with Visual Studio Code
+----- Step through Library code using NPM Pack
+--- Deploying to Environments
+---- Recommendations
+----- Establish your environments in NPM using Organziations/sub-organzation-folder
+----- Handle installation in your package.json 
+---- NPM 
+----- Create a PRIVATE Account in NPM - Recommended => this will hide all your libraries from the public
+----- Create Organizations for your libraries
+----- using .npmrc for deploying configuring your Angular applications to install libraries on your local or in Azure DevOps
+----- Deploying your library to NPM

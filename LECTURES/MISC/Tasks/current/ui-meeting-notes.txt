@@ -1,0 +1,16 @@
+UI - Last Visited Case and Persons
+- Up to 10
+- Is it for the lifetime of the application and reset when users logs out?
+-- 
+- Favorites => Out of Scope
+
+UI - Case/Person Content List: View Content History
+- How do you go back?
+- Is it realtime? How often do you update the list?
+- What does the link do?
+-- 
+- Back Button
+-- Same location
+--- Content Id
+--- Page Number
+--- Expand the drawer

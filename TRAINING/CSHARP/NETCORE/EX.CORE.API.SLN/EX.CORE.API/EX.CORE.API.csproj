@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.MessagePack" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EX.DTO\EX.DTO.csproj" />
+    <ProjectReference Include="..\EX.Interfaces\EX.Interfaces.csproj" />
+    <ProjectReference Include="..\EX.LOGIC\EX.LOGIC.csproj" />
+    <ProjectReference Include="..\EX.SignalR\EX.SignalR.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,251 @@
+Downside of being an S-Corp
+- Accounting and Bookkeeping
+-- Reasonable Salary according to your net profit and Owner's distribution
+--- Salary VS Distribution
+--- Taxes
+--- Financial Decisions
+-- Payroll System
+--- ADP
+---- intuit
+---- Paychex
+---- Zen Payroll
+---- Remit taxes through a payroll system
+--- 1120 Tax Return
+---- 
+--- Legal Documents
+---- Tax and Legal Requirements
+---- Board of Directors
+-- Impact on your Social Security Benefits
+--- 40 work credits through lifetime
+--- Reducing salary will reduce benefits
+--- Your Social Security will be determined by your salary
+--- Not getting into huge debts
+--- SEP IRA or 401k as a consultant
+--- SS Benefits Impacted by reducing your payroll
+--- Mortgages looks at your salary portion of the s-corp
+--- Contributions Types
+---- Employer => 
+---- Employee => MATCH between 20 - 25% (SEP IRA/401k)
+--- Applying for a house, your business income is determined as the salary
+
+https://youtu.be/Yi37DkCLbkM
+
+Tax Benefits for The LLC
+- Small Business MBA
+1. LLC = Legal Business Type (NO TAX BENEFITS)
+-- No tax form at all
+-- Disregarded entity by the IRS
+-- LLC Recent business type with easier rules to follow than a corporation
+-- Multi-Member LLC (2 owners are member)
+--- Single-member is taxed as sole-proprietor
+--- Multi-Member is taxed as partner
+--- All business Expenses
+---- Owner pay is not tax deductable
+---- Pay for working in a business is always taxable to owners
+--- The legal business types and the tax business types
+-- LEGAL = Requires a separate business account
+-- TAX = no separate business cheaper and easier self employed writeoffs
+--- Self-Employed tax writeoffs is the best way
+---- Home office
+---- driving your car
+---- part personal
+---- part business travel
+-- LLC = owner must track their basis (pay/salary)
+-- PAY = is based off the NET INCOME
+--- NOT S-Corp (loose self-employed writeoffs)
+--- S-Corp business expenses don't save more money
+-- Self-Employed: get special deductions for self-employment and income taxes, which offset separate business
+-- Access what reasonable salary is
+
+- LLC VS S-Corp (Tax Benefits)
+-- Default Tax types
+-- Election Tax Types 
+- LLC 
+-- Multi-Member is taxed as a partnership
+-- Business Insurance (High-sued industry)
+
+- Differences between the LLC VS S-Corp
+-- LLC 3 Ways
+--- Operations
+---- Ordinary Income (selling services) < 12 months
+---- S-Corp
+----- LLC tax as an S-Corp (NO ASSETS - NO Rental Properties)
+----- CATCH (Have to take a reasonable salary)
+--- Holdings
+---- Passive Income (NOT WHAT I DO - example is not related to independent consultant) > 12 months 
+---- LLC
+----- Holding assets
+----- DOES NOT SAVE TAXES 
+----- LLC can tax as an S-Corp
+------ Planning opportunities
+------ Startup as LLC and then end as a S-Corp (back date to S-Corp when at the end of the year)
+------ Partnership => Two S-Corp coming together to form a LLC (Partnership)
+
+Joe Perzel
+Steve 
+
+- Single Member LLC Mistakes you should Avoid
+-- Follow a legal proper 
+--- Operating Agreement = between you and the LLC 
+---- Type of business
+---- Salary (MOST IMPORTANT)
+--- Keep track of major decision in business
+---- Buy new brand new laptop
+---- Internet
+---- G-Suite
+---- QuickBooks Online (NOT SURE)
+--- Good Tax Records in place (Bookkeeping)
+---- Setup Accounting Correctly
+---- For Taxes (H&R Block)
+--- Separate Bank Accounts
+---- Personal Account 
+---- Business Account (Once Approved, send to Faryal) = All income from LLC goes here
+----- How to pay yourself
+----- How to pay bills
+-- Make sure it is actually capitalize
+--- Keep it in the business to pay the operating expenses relating to the business
+-- Avoid co-mingling personal and business funds
+-- Act as the owner of the LLC
+--- Sign as the President of the LLC to rent/lease a virtual office
+
+What to do after you form an LLC (6 steps you must take)
+To protect your business
+1. Make sure you have an Operating Agreement Drafted (google online - Article of Organization) - DONE (Modify)
+2. Apply for EIN # - DONE
+3. Open a Bank Account - DONE
+-- Separate from Personal Account 
+-- Use EIN #
+-- Maybe open more than one
+--- Purpose 
+---- Taxes
+---- Direct Deposit for all Clients
+4. Get a Business License (Investigate)
+-- Business License for the LLC
+-- Do I need a Business License???
+5. Get Contracts - DONE
+-- Vendors
+--- Hennepin
+--- iSpace
+--- Publicis Sapient??? NOT SURE ABOUT THIS
+6. Get a Payroll Provider
+-- QuickBooks
+-- Everlance Application
+
+How to file your taxes as an independent contractor?
+- Save 20 - 30% for your taxes
+-- Expenses 
+- 1099 Form
+-- Main Tax Form
+-- How much money in the year
+- Self or Accountant
+-- First Year
+--- Have a lot of questions = Accountant 
+-- Compare with Self and Accountant
+--- Do it online, but don't submit
+--- Then hire an accountant
+
+Self-Employment Tax Explained
+- Federal and State Income TAXES
+-- Federal Income Taxes 
+--- 12.4% SS and 2.9% Medicare (15%)
+--- Pay taxes on a quarterly basis
+--- To avoid penalties, pay them quarterly
+---- Pay a little more to avoid penalties, not too much for IRS to keep
+- Deductions
+-- Expenses
+
+1099 Independent Contractor TAXES
+- W2 => Employee Status => withhold taxes out of each paycheck
+- W9 => 1099 => Business-to-Business Relationship
+-- $8.00 => scam, minimum wage and accountant 
+Steps for W9
+- File a DBA (Due Business As) => LLC - DONE
+-- Register a company name
+- EIN # => IRS - DONE
+- Open Business Account - DONE
+- Open Personal Account - DONE
+- File W9 form under business name/EIN # with clients - DONE
+-- Money should be deposited to business Account 
+Business Account
+- Pay for things that are Tax Deductable (Employer deposits to this account)
+-- Tools 
+-- Transportation/gas/tires/maintenance
+-- Clothes
+-- Rent (Home office) - Deduct a portion of your rent 
+-- Computers
+-- Office Supplies
+-- Cell Phone
+-- Get a Debit Card
+-- Save a receipt
+-- Manage with QuickBooks
+-- Write checks to yourself out of this account (Salary)
+Personal Account Not TAX Deductable (Taxable Income)
+- Groceries
+- Entertainment
+- Hold 25% for Taxes 
+-- Put the 25% in a separate Account 
+- Debit Card for Personal Expenses
+- Disadvantage of not doing your taxes right
+-- Ruins your chances of owning a home
+
+Bookkeeping Topics
+- Quarterly Taxes Explained
+-- Who has to pay taxes? If you make more than $1000.00
+-- More than a year, did you make more than a $1000.00
+-- Options
+--- Accountant will prepare and determine how much you owe
+--- Income Statement
+--- Percentages to track taxes
+---- Track your income monthly and set aside a percentage for taxes
+--- Use an online tax calculator
+--- Put tax savings in a separate account (TAX CHECKING ACCOUNT)
+--- Times to pay your taxes
+---- Apr 15th (for Jan - Mar)
+---- Jun 15th (for Apr - May)
+---- Sep 15th (for Jun - Aug)
+---- Jan 15th (for Sep - Dec) - PAY 1ST
+--- URL: https://www.irs.gov/payments
+--- Mail it in too
+--- QuickBooks
+
+Business Expenses And Tax Deductions for Small Business That You DON'T want to Miss in 2020 for 2019
+- Deductions => ordinary and necessary for your business
+-- Ordinary => common in your business
+-- Necessary => helpful and appropriate for your business
+-- What?
+--- Startup Costs (Need to identify this)
+---- Even if business is unsuccessful you can add your startup costs
+---- NOTE: if you incur this cost before making the decision of starting the business, you CAN'T deduct this
+--- Organization Costs (filing fees and professional fees) - Need to identify this
+--- Supplies and materials
+--- Office Supplies
+--- Services and subscriptions (like applications)
+--- Payroll expenses (contractor and employee)
+--- Equipment, computer, printers
+--- Rent if you rent an office
+--- Virtual Office
+--- Utilities
+---- Outside of your home
+---- Percentage of square foot of home office applies to home expenses
+--- Solo 401k tax contributions
+---- Make a contributions up to the date of your filing
+--- Travel Expenses
+--- Personal Time for that Travel
+---- Can't deduct the full personal time. Only deduct the time for that business
+---- Meals (meals for travelling and taking a client out for lunch can deductable at 50%)
+--- Insurance
+---- Health Insurance
+---- Business Insurance
+--- Business Mileage
+---- Can't deduct mileage from your home to your office
+---- Home office Tax Deductions
+--- Home Expenses
+---- Calculate square foot/feet
+---- 10% of your home business can be deducted as Tax Expenses
+--- Cell Phone (if 50% of your phone calls is used for business can be used)
+--- Advertising Costs 
+--- Credit Card Processing Fees
+--- Training Travel Expenses
+--- Educational Costs
+---- Not in all circumstances (not undergraduate)
+---- Maintain and improve your current business

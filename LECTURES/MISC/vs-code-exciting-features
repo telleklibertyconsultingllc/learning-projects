@@ -1,0 +1,6 @@
+Support for Microsoft Edge and WebView2
+
+We now support launching the new Microsoft Edge browser, just change your debug type from chrome or pwa-chrome to pwa-msedge to try it out. It supports all the same configuration settings as chrome does.
+
+
+success@nationaldebtrelief.com

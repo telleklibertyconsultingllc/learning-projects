@@ -1,0 +1,60 @@
+Here is a summary of what we’d like to go over this AM.
+
+Proposal for Edit Existing Content Going Forward
+Summary:
+1.	Remove "Edit" menu entirely from Content List pages (Case and Person)
+2.	On Content List page: All Check Out, Cancel, and Check In occurs in the Content Properties Drawer
+3.	No changes to the Expired Check Out PBI
+4.	Ability to Check In from My ECF: Documents Checked Out by Me
+
+Pros:
+•	Less clicks overall (BIG WIN FOR BUSINESS)
+•	Less scrolling to select content then back up to edit menu
+•	Draws attention to the Content Properties Drawer
+•	Less menu logic / disabling buttons
+•	Less risk for accidental check out (selecting more than one item)
+•	Fewer toast/error messages to implement/manage
+
+Cons:
+•	Users will only be able to Check Out one item at a time BUT not a high business need to check out multiple at a time
+•	rework required on our part
+
+General Scenarios:
+1. Content Available to Check Out
+•	Check Out button displays in the drawer for all editable content types
+•	Version Status states "Available"
+•	Selecting “Check Out” launches download process
+
+2. Content Never Available for Check Out/Edits
+•	For content that cannot be edited, no button displays in the drawer.
+•	Version Status  - Can this state something else if it is not an editable doc type? DO WE NEED THE STATUS?
+o	Ex: "Final"
+o	QUESTION: Can .TIF files display "Annotations Only" ???  End users think of annotating on a tif as an “edit” so a meaningful message about annotations here would be valuable.
+
+3. Non-Blue Checked Out
+•	Lock Icon appears in Content List
+•	Lock Icon Appears in Version Status "Checked Out by [Network ID]" if NOT the person that checked it out (Show Help URL)
+•	TELLEK: If I checked it out - Version Status would display the text "Check In on Form" and a Cancel Check Out button
+•	Buttons to Check In and Cancel Check Out appear if you ARE the person that checked it out
+o	Need File Explorer (Can it launch from “Basic with Auto” Angular upload?)
+    - NEED A UI/WIREFRAME FOR THIS
+        - Where to display success/failure message
+        - Instructions or comments to upload file
+        - Rules for uploading file
+        - Confirmation prompt
+•	Support Role - Stack in table "Checked Out by [Network ID]" AND "Cancel Check Out" button
+
+4. Blue Checked Out State
+•	Lock Icon Appears in Content List
+•	Lock Icon Appears in Version Status "Checked Out by [Network ID]" if NOT the person that checked it out
+•	If I checked it out - Version Status would display the text "Check In on Form" and a Cancel Check Out button
+•	Support - Stack in table "Checked Out by [Network ID]" AND "Cancel Check Out" button
+
+Exceptions:
+•	“Simultaneous” check outs
+o	If two or more users are on the same content properties drawer, if user A checks out before user B (and user B has not refreshed to see the status change)
+    - when user B selects the "Check Out" button, then the drawer will refresh to show the Checked Out state (see below) AND gets a toast message that the content is checked out by another user.
+    - BACKEND API WILL ANSWER THIS. WHEN CHECK OUT BUTTON IS ACTIVE AND CLICKED - WILL UPDATE MESSAGE AND DISPLAY AS CHECKED OUT
+
+QUESTION: Can the date and time display when an item was checked out in the table so folks have a better idea of when something might expire IF they need it?
+    - (Perhaps then they will be patient and wait vs contacting Help Desk.)

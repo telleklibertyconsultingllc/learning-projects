@@ -1,0 +1,17 @@
+Dale's code review
+These are some of the things observed, so far:
+-	Business Rules
+-- Person Name: 
+--- I see suffix as optional; however, in your code or html, you are not taking coding for this
+-- Address: 
+--- For the addresses, the rules state that there should be a maximum of 5 addresses which should be active.
+--- Also, when there are no addresses, the message “No information to display” should be shown. I didn’t see this in your template
+--- Address Name = post office number is considered?
+-- Authorized Representative
+--- Type and Source System fields are not part of the business rules.
+-- Additional Information
+--- All the fields are different, is it because fields are nulls for this MAXIS PMI? Only PMI field is shown.
+
+
+6.5
+7

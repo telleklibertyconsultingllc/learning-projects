@@ -1,0 +1,31 @@
+Problems
+- GitFlow Extension => https://github.com/nvie/gitflow
+-- Gitflow Actions Sidebar
+-- ardisaurus.gitflow-actions-sidebar
+- wallaby
+
+- Meeting with Enterprise IT - DONE
+-- using npm packages  - DONE
+- ECF Shared - DONE
+-- minify and uglify ECF Shared Library code in NPM Repository
+
+- ECF Shared Library
+-- powershell file to install package
+
+April TASKS
+- Highlight row  - DONE
+- Settings update - DONE
+- Add ECF Content Access connection to ECF Next - DONE
+- Add these to ECF Shared Library - DONE
+-- content service - DONE
+-- appInitializer code - DONE
+- Add to libraries to ECF Content Access - DONE
+
+- Meeting with DEVS on ECF Shared Library - DONE
+-- Development - DONE
+-- Testing - DONE
+--- Testing in test suites - DONE
+--- Testing in ECF Next and ECF Content Access - DONE
+-- Deployment - DONE
+--- NPM - DONE
+-- Design Considerations - DONE

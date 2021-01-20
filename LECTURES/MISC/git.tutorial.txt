@@ -1,0 +1,46 @@
+# GIT Understanding - The Big Picture
+
+- Git tracks changes to files or source codes
+- Distributed Version Control
+
+- git add => adds files or stage files to a snapshot
+- git commit => creates a snapshot with message that states what is within the snapshot
+- git diff [first-commit-hash] [second-commit-hash] => tells the changes between two commit hashes
+- tracking a bug
+-- backing out a change =>
+git checkout [older-commit-hash]
+git checkout [latest-commit-hash]
+
+git checkout [branch-name]
+
+- Merging
+Branch-Premium
+1. git checkout premium
+2. git merge master => This contains all the changes from Master and Master won't move changes to premium changes to master
+
+- GIT Eco-Systems
+-- Git Based services (Distributed Source Control System)
+--- Git Integration => VS Code, Visual Studio, Sublime Text, Eclipse, SourceTree, .etc
+--- Team Tools => Jenkins, Travis CI, Microsoft Teams, JIRA
+--- Cloud Providers => AWS, Heroku, Azure DevOps
+--- Git Based services
+---- GitLab
+---- GitBucket
+---- GitHub
+
+- Adding Git Project to Remote Repository
+echo "edit file contents"
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin [Azure DevOps Repo URL]
+git push -u origin master
+
+- OR
+git remote add origin [Azure DevOps Repo URL]
+git push -u origin master
+
+- RESET
+-- git reset --soft [commit-hash] => removes from staging area to make more edits
+-- git reset --mixed [commit-hash] => removes from staging to working directory
+-- git reset --hard [commit-hash] => throws away the changes

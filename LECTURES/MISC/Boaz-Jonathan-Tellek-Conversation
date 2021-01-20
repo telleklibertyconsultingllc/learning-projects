@@ -1,0 +1,105 @@
+[‎10/‎8/‎2019 10:06 AM]  Boaz Kallagunta:  
+Hi Tellek, are you in the office?
+ 
+[‎10/‎8/‎2019 10:06 AM]  Tellek E Liberty:  
+yes
+ 
+[‎10/‎8/‎2019 10:06 AM]  Boaz Kallagunta:  
+can you please show Jonathan how to download VM from software center?
+ 
+[‎10/‎8/‎2019 10:08 AM]  Tellek E Liberty:  
+sure, the highlighted one is the one to install, right?
+ 
+[‎10/‎8/‎2019 10:08 AM] Tellek E Liberty: 
+
+
+ [‎10/‎8/‎2019 10:09 AM]  Boaz Kallagunta:  
+correct, the right side one
+ 
+[‎10/‎8/‎2019 10:10 AM]  Tellek E Liberty:  
+k, i don't know how to configure the VM. I believe he needs to do that too, right?
+going over to him now
+ 
+[‎10/‎8/‎2019 10:10 AM]  Boaz Kallagunta:  
+once it is downloaded, copy the machine name and create a ticket asking him to add him as a primary user to that VM
+i will help in the config
+ 
+[‎10/‎8/‎2019 10:11 AM]  Tellek E Liberty:  
+what is the link? I will create a word document for this process so i can remember. thanks
+for the service ticket
+oh, service now right?
+ 
+[‎10/‎8/‎2019 10:12 AM]  Boaz Kallagunta:  
+https://hcconnect.hennepin.us/IT/Pages/GetHelpPg.aspx 
+click the link Request help through the self-service portal 
+ 
+[‎10/‎8/‎2019 10:13 AM]  Tellek E Liberty:  
+k, 
+ 
+[‎10/‎8/‎2019 10:13 AM]  Boaz Kallagunta:  
+after these 2 steps, i will help him how to configure
+ 
+[‎10/‎8/‎2019 10:15 AM]  Tellek E Liberty:  
+he would need his VM Machine name, right?
+to request access...
+ 
+[‎10/‎8/‎2019 10:15 AM]  Boaz Kallagunta:  
+correct
+ 
+[‎10/‎8/‎2019 10:15 AM]  Tellek E Liberty:  
+k, thanks
+ 
+[‎10/‎8/‎2019 10:15 AM]  Boaz Kallagunta:  
+in the ticket, he need to mention the vm name and ask to add him as "Primary User"
+ 
+[‎10/‎8/‎2019 10:16 AM]  Tellek E Liberty:  
+yeah, understood. jotting the steps down... thanks...
+this is the page, right?
+https://selfservice.hennepin.us/SC/ServiceCatalog/RequestOffering/4d5e49e3-f24b-28db-a980-18bcd5817550,b2fb39ec-95d9-6343-e481-36a55d7d3886 
+ 
+[‎10/‎8/‎2019 10:17 AM] Tellek E Liberty: 
+
+
+ [‎10/‎8/‎2019 10:17 AM]  Boaz Kallagunta:  
+https://selfservice.hennepin.us/SC/ServiceCatalog/RequestOffering/43aa06af-f73b-c30b-1405-378c094712f4,af1ca002-b4f5-0eb0-f151-abd47e2796ec 
+ 
+[‎10/‎8/‎2019 10:18 AM]  Boaz Kallagunta:  
+If Shakil is in the office, you can ask him to show you how to create ticket
+ 
+[‎10/‎8/‎2019 10:19 AM]  Tellek E Liberty:  
+sure
+going over to Jonathan to help him out
+ 
+[‎10/‎8/‎2019 10:19 AM]  Boaz Kallagunta:  
+ok, thanks
+ 
+[‎10/‎8/‎2019 10:21 AM]  Boaz Kallagunta:  
+this is the link to create the ticket
+https://selfservice.hennepin.us/SC/ServiceCatalog/RequestOffering/4d5e49e3-f24b-28db-a980-18bcd5817550,b2fb39ec-95d9-6343-e481-36a55d7d3886 
+ 
+[‎10/‎8/‎2019 10:24 AM]  Tellek E Liberty:  
+yeah, that's the one i sent you in this IM. Also, I was just at Jonathan's desk. He does not have the same VM Image as mine. He has a different icon. Jonathan is part of this conversation
+Hey Jonathan, could you please search for "VMWARE Workstation".
+ 
+[‎10/‎8/‎2019 10:25 AM]  Jonathan Healy:  
+Not found
+ 
+[‎10/‎8/‎2019 10:26 AM]  Boaz Kallagunta:  
+search VM
+ 
+[‎10/‎8/‎2019 10:26 AM]  Tellek E Liberty:  
+he did
+ 
+[‎10/‎8/‎2019 10:26 AM]  Jonathan Healy:  
+I only have the SSIS version available to me
+ 
+[‎10/‎8/‎2019 10:26 AM]  Boaz Kallagunta:  
+that's not correct one
+search by vmware
+ 
+[‎10/‎8/‎2019 10:27 AM]  Jonathan Healy:  
+I have searched, it is not available
+ 
+[‎10/‎8/‎2019 10:28 AM]  Tellek E Liberty:  
+Should I contact Toy or Bryan to help him out? Hey Jonathan, could you please paste a screen shot of your software center so Boaz may see what you're seeing? Just search for VM and paste the screen shot here.
+ 

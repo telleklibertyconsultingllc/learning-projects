@@ -1,0 +1,34 @@
+TODAY's TASKS
+-- INQUIRIES
+--- liveshare policy from central IT (Phone: 612.348.6662)
+---- IT HELP DESK RESPOND: 
+-- Application Insights - Azure
+--- Let Shelly Know
+
+-- DONE
+--- Bug 76607: ECF Next: Audio files are not playing in QA, STG and PROD environments
+
+-- Other
+--- LiveShare - Visual Code - Research This!
+--- Plan Angular Library Presentation
+---- Target for September 4th, 2020
+---- Presentations this Monday will be giving Jonathan Vang
+
+-- PBIs
+--- Product Backlog Item 72680: Angular and PrimeNG Updates
+
+-- Defects
+--- Bug 74102: ECF Next: Program Area drop downs program names are not grouped and not matching with Business Rule and Wireframe
+
+-- IN PROGRESS
+--- LiveShare - Visual Code - Research This!
+--- Update README.md for ECF Shared Library (IMPORTANT)
+--- Fix powershell script for ECF Next and ECFContentAccess
+
+- add sorting functionality for ECF Next 
+-- "ngx-order-pipe": "^2.0.4",
+- remove this npm library - "thenby": "^1.3.0",
+- table.overrides.scss 
+-- directive - app-ecf-theme [name]=""
+-- change styles to use custom class
+- opening new window for ECF Content Access - DONE

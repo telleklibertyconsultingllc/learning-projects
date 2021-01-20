@@ -1,0 +1,17 @@
+- ECF Shared Automation Process
+1. Pack for debugging
+- copy libraries to ecf-shared-library folders
+- uninstall current version of ecf next
+- install current version of ecf next
+
+2. PROD Deployment to NPM
+- uninstall current version of ecf next
+- install current version of ecf next
+
+3. Build and clean up process
+- clean directories => build-pack-clean-copy-library
+- build the library
+- perform npm pack
+- clean ngecf and ecf content access folders
+
+https://hennepin.sharepoint.com/teams/hs-ecfsupport

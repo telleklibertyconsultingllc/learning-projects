@@ -1,0 +1,40 @@
+TODOS
+- Person Case List DONE
+-- Person Case list grid
+--- program => maxisPerson => HHSPersonProgramMaxis => programDescription
+--- case id
+--- status => status or programStatusDescription
+--- begin date => participationStartDate
+--- end date => participationEndDate
+--- worker => lastname, firstname
+--- phone => 
+-- Person Case List Service
+
+- helping others with unit tests explorer
+-- wallaby vs karma
+
+- code review
+-- email sent - DONE!
+-- talk to everyone about implementing, today (January 22)
+
+- wiki - presentation with Angular Hennepin team on ngRx
+-- create ngRx Counter Repo
+-- Create ngRx Simple form scenarios
+-- publish wikis for ngRx in Azure DevOps
+
+- birthdate defect
+-- create new branch - DONE!
+-- Remove placeholder - DONE!
+-- Allowing 01/pg/2001 as a valid date. Allowing characters within the dates - DONE!
+-- If date is less than 10 characters or more than 10 characters, show error - DONE!
+-- Accepts tomorrows date. should not accept any date greater than today. - DONE!
+
+- ssn and alien id defect
+-- create new branch
+-- ssn should show error border when less than (tab out) - DONE!
+-- alien id should show error border when less than (tab out) - DONE!
+-- remove 123456789 from alien id placeholder - DONE!
+-- conditional required field changed - waiting for approval with Shakil/Sandy - DONE!
+
+- feature/ecf-person-case-list - contain git stash changes
+

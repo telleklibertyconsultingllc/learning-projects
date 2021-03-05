@@ -1,35 +1,46 @@
 TASKS
 - 8AM <=> 2PM (WORK)
 --- DONE
----- Dale_DEV_2020S25_2 (Merging Dale's Branch to DEV)
----- Product Backlog Item 76408: Create ECA client using Angular
----- Product Backlog Item 81696: Edit Existing Content: Check Out & Cancel Check Out Content From Properties Drawer
----- Product Backlog Item 79351: Edit Existing Content: Check In Non-Adobe Blue LiveCycle
----- Bug 79836: ECF Next: Program Areas for External Contracted Users should not be displaying in the list of programs
----- Bug 82984: ECF Next: Cancel Checkout button should be Cancel Check Out (two words for Check Out)
----- Bug 82891: ECF Next: Non-adobe content not displaying Check In button after checked out
----- Bug 82991: ECF Next: When checking out content from page 2 or beyond, it does not return to specific properties drawer, but returns you to page one
-
----- Bug 82978: ECF Next: Cancel Checkout button background should not be transparent
----- Bug 83033: ECF Next: Non-adobe blue content not displaying Cancel Check Out for support user
+---- Product Backlog Item 81551: ECF Next: Upgrade ECF UI Application Suites to Angular/PRIMENG version 11
+---- Bug 85785: ECF Next: Filtering by Timeframe is not filtering and no toast message is displayed
+---- Product Backlog Item 85197: Selecting from lists of All Content Types
 
 --- PBIs
+---- Product Backlog Item 83706: Update Content Properties Drawer to Point to Correct FileNet properties
+---- Product Backlog Item 85270: Selecting a Person to Associate with Content
+---- Product Backlog Item 77976: UI: Create a new Adobe Blue LiveCycle Case Based Document from a Case
+---- Create Custom Controls
+ /// syntax
+ <calendar-input
+	(onSelect)=custom EventEmitter
+	(onInput)=custom EventEmitter
+	(onBlur)=custom EventEmitter
+	formControlName
+	formGroup***
+	minDate
+	maxDate
+ >
+ </calendar-input>
+
+ // Usage
+ - table component
+ - content list component
+ - case history component
+ - history component
+ - search advanced component
+ - template table component
 
 --- DEFECTS
----- ECF Content ACCESS Document Service to retrieve Single Content (NOT PART OF SPRINT - FONG PERFORMANCE)
----- Bug 82788: ECF Next: Content versions are not displaying in ECF Next QA env
----- Date Filter Content History
-
----- Bug 83169: ECF Next: Toast message for cancel check is displayed, then a small yellow message box arrow and X to close with No Message appears
----- Bug 83179: ECF Next: Buttons on the dialog box "Are you sure you want to cancel checkout for this content?" are in reverse order, missing 'ed' on Checked Out, and screen is gray in color
+---- Bug 86459: ECF Next: Latest Version History row is blank content
+---- Bug 86455: ECF Next: Per Page Selection is remaining 25 when selecting 50 or 100 on the content list page
 
 --- RESEARCH PBIs
----- Product Backlog Item 81656: Research - Edit Existing Content: User's Check Out Expires History
+
+--- Outstanding PBIs
+
 
 --- TODOs
---- TimeOut Recheck
 --- Make ECF Shared Debuggable
---- ECF Content Access - content list service change
 --- ECA Upload to GIT Repository
 --- Add Git Hooks fopr the following:
 ---- Git pre-commit
@@ -37,30 +48,30 @@ TASKS
 ----- Building for QA Only
 ----- Enforcing good commit messages with PBI's/DEFECTS numbers (DON'T NEED THIS)
 
-- date received
-- last modified date = ius the checkout date
+- 21.1 PRIORITY
 
-IMPORTANT!!!!
----- Bug 79836: ECF Next: Program Areas for External Contracted Users should not be displaying in the list of programs
-1.	Only returning the contracted FAVORITE_AREA if the user is a contracted user. It returns the correct area based on the AD group. Bug 79836: ECF Next: Program Areas for External Contracted Users should not be displaying in the list of programs - Boards (visualstudio.com)
-Note: the userId parameter should match the authenticated userId (which will work with the UI code now).  In the future there will be a need to see roles, preferences for a user other than who is requesting it.
-2.	Three new services for Favorite Case in the preference service:
-/EcfPreferenceService:
-@GET
-@Path("/getFavoriteCases")
-public EcfFavoriteCase[] getFavoriteCases(@HeaderParam("userId") String userId) throws PreferenceServiceException, DataException, NotFoundException 
-@POST
-@Path("/addFavoriteCase")
-public EcfFavoriteCase addFavoriteCase(@HeaderParam("user") EcfFilenetUser user, @HeaderParam("favoriteCase") EcfFavoriteCase favoriteCase) throws PreferenceServiceException, AuthorizationException, NotFoundException, DataException 
-@DELETE
-@Path("/deleteFavoriteCase")
-public void deleteFavoriteCase(@HeaderParam("user") EcfFilenetUser user, @HeaderParam("favoriteCaseId") int favoriteCaseId) throws PreferenceServiceException, NotFoundException, AuthorizationException, DataException 
-Model object:
-namespace="http://preference.model.filenet.ecf"
-public class EcfFavoriteCase 
-       private int instanceId;
-       private String userId;
-       private String caseId;
-       private String caseName;
-private CaseType caseType;
---- ECF Content ACCESS Document Service to retrieve Single Content
+- Models
+EcfDocumentICNInfo
+     String icnURl;
+     EcfContentItem  ecfContentItem;
+
+EcfDocumentContentItemAndInfo
+     DocumentContentItem documentContentItem;
+     EcfContentItem  ecfContentItem;
+
+- API Methods
+public EcfDocumentICNInfo getEcfDocumentICNInfoByVsId(@HeaderParam("ecfFilenetUser") EcfFilenetUser user, @HeaderParam("vsId") String vsId)
+public EcfDocumentICNInfo getEcfDocumentICNInfoByDocId(@HeaderParam("ecfFilenetUser") EcfFilenetUser user, @HeaderParam("docId") String docId)
+public DocumentContentItemAndInfo getDocumentContentItemAndInfoByVsId(@HeaderParam("ecfFilenetUser") EcfFilenetUser user, @HeaderParam("vsId") String vsId)
+public DocumentContentItemAndInfo getDocumentContentItemAndInfoByDocId(@HeaderParam("ecfFilenetUser") EcfFilenetUser user, @HeaderParam("docId ") String docId)
+public DocumentContentItemAndInfo getStaticAdobeDocumentAndInfoByVsId(@HeaderParam("ecfFilenetUser") EcfFilenetUser user, @HeaderParam("vsId") String vsId)
+public DocumentContentItemAndInfo getStaticAdobeDocumentAndInfoByDocId(@HeaderParam("ecfFilenetUser") EcfFilenetUser user, @HeaderParam("docId ") String docId)
+
+- Toy's Meeting
+-- Contract
+--- Use my LLC => 90 or 95 per hour
+-- UI wireframe Architecture
+-- ECA Next setup
+-- Family
+
+84335

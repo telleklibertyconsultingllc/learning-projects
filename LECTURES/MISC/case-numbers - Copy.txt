@@ -1,3 +1,9 @@
+- Helpful URLs:
+https://ecfdev/EcfFilenetServices/
+https://ecfdev/HHSSystemServices/
+https://ecfdev:9444/ibm/api/explorer - swagger
+https://ecfdev:9444/ibm/api/docs
+
 ECF Shared Library
 username: boazkallagunta
 password: EcfNex!2o2o$
@@ -109,3 +115,6 @@ userId: pwsmi47
 password: Testing99!
 userId: wfcf18
 password: FileNet00!
+
+Angular Performance - https://itnext.io/how-to-optimize-angular-applications-99bfab0f0b7c?gi=5984af92bd15
+Otterbase FedEx - https://www.fedex.com/fedextrack/?action=track&action=track&tracknumbers=783916878980

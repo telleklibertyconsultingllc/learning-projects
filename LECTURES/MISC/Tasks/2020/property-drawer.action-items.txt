@@ -1,0 +1,29 @@
+Property Drawer
+- Problems
+-- debugging property drawer/library???
+-- communicating between library and ecf next
+-- navigation between library and ecf next
+-- table component
+
+- Proposed Solutions
+-- Get rid of the Property Drawer from the library
+---- communicating between library and ecf next
+---- debugging property drawer/library
+-- table component (Keep Table Component)
+--- content creation
+--- version info (create a component => table) REVISIT
+-- Rewrite Content Properties to use its own component
+
+- LATER!!!
+-- Get rid of the library all together
+--- versioning??? Solved
+--- debugging property drawer/library??? Learning issue
+--- communicating between library and ecf next
+
+- Actions (Friday, Saturday, Sunday, Monday) Done after deployment of checkout/check-in defects
+1. Remove Property Drawer from Library and adding it to ECF Next (Tellek) (QA Testing) - Tuesday
+-- Add New Component for Content Properties (John) - Need this before Tuesday
+2. Debugging with library (Tellek) - Back burner??? After Mid-week Sprint Review
+3. Move to content Access (Tellek)
+4. Developer Testing Boaz Testing
+5. Turn off Auto deployment to QA (Boaz)

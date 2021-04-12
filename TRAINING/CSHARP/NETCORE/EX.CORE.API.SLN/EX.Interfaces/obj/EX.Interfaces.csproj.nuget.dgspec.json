@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.Interfaces\\EX.Interfaces.csproj": {}
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.Interfaces\\EX.Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\EX.DTO.csproj": {
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\EX.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\EX.DTO.csproj",
+        "projectUniqueName": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\EX.DTO.csproj",
         "projectName": "EX.DTO",
-        "projectPath": "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\EX.DTO.csproj",
-        "packagesPath": "C:\\Users\\TELI003\\.nuget\\packages\\",
-        "outputPath": "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\obj\\",
+        "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\EX.DTO.csproj",
+        "packagesPath": "C:\\Users\\telle\\.nuget\\packages\\",
+        "outputPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\TELI003\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\telle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -62,20 +63,21 @@
         }
       }
     },
-    "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.Interfaces\\EX.Interfaces.csproj": {
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.Interfaces\\EX.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.Interfaces\\EX.Interfaces.csproj",
+        "projectUniqueName": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.Interfaces\\EX.Interfaces.csproj",
         "projectName": "EX.Interfaces",
-        "projectPath": "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.Interfaces\\EX.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\TELI003\\.nuget\\packages\\",
-        "outputPath": "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.Interfaces\\obj\\",
+        "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.Interfaces\\EX.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\telle\\.nuget\\packages\\",
+        "outputPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\TELI003\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\telle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -90,8 +92,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\EX.DTO.csproj": {
-                "projectPath": "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\EX.DTO.csproj"
+              "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\EX.DTO.csproj": {
+                "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\EX.DTO.csproj"
               }
             }
           }

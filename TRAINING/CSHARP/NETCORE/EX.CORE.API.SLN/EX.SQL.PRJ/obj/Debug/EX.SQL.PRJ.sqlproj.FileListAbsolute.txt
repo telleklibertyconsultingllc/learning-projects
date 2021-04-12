@@ -1,0 +1,9 @@
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SQL.PRJ\bin\Debug\EX.SQL.PRJ.dacpac
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SQL.PRJ\bin\Debug\EX.SQL.PRJ.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SQL.PRJ\bin\Debug\EX.SQL.PRJ.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SQL.PRJ\obj\Debug\Model.xml
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SQL.PRJ\obj\Debug\refactor.xml
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SQL.PRJ\obj\Debug\postdeploy.sql
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SQL.PRJ\obj\Debug\predeploy.sql
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SQL.PRJ\obj\Debug\EX.SQL.PRJ.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.SQL.PRJ\obj\Debug\EX.SQL.PRJ.pdb

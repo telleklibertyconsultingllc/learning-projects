@@ -1,77 +1,51 @@
 TASKS
 - 8AM <=> 2PM (WORK)
 --- DONE
----- Product Backlog Item 81551: ECF Next: Upgrade ECF UI Application Suites to Angular/PRIMENG version 11
----- Bug 85785: ECF Next: Filtering by Timeframe is not filtering and no toast message is displayed
----- Product Backlog Item 85197: Selecting from lists of All Content Types
 
 --- PBIs
----- Product Backlog Item 83706: Update Content Properties Drawer to Point to Correct FileNet properties
----- Product Backlog Item 85270: Selecting a Person to Associate with Content
----- Product Backlog Item 77976: UI: Create a new Adobe Blue LiveCycle Case Based Document from a Case
----- Create Custom Controls
- /// syntax
- <calendar-input
-	(onSelect)=custom EventEmitter
-	(onInput)=custom EventEmitter
-	(onBlur)=custom EventEmitter
-	formControlName
-	formGroup***
-	minDate
-	maxDate
- >
- </calendar-input>
+---- Product Backlog Item 77976: Create a single, new Adobe Blue LiveCycle Case based document from a Case File
+---- Product Backlog Item 86088: Create a single, new Adobe Blue LiveCycle Person based document from a Case File
+---- Product Backlog Item 86392: Create Form From Template: Add/Remove Favorite Content Types
+---- Product Backlog Item 88827: ECF NEXT: Template Step Custom Control - In Local Branch
+---- Product Backlog Item 87024: ECF Next: Custom Controls - In Local Branch
+---- Product Backlog Item 82803: ECA Next: Landing Page
 
- // Usage
- - table component
- - content list component
- - case history component
- - history component
- - search advanced component
- - template table component
+PBIs Process (Deliver everything requested in the PBI)
+1. List required functionalities for the UI
+2. Determine all UI components, directives, pipes, services, stores (if needed) for the wireframe
+3. Pick existing UI and see styles where wireframes are referring to - for reusability
+4. Pick existing components, directives, pipes, services, stores where wireframes are referring to - for reusability
+5. Determine code changes
+6. Implement Code 
+7. Make sure implementation functions according to step 1
+8. Check for errors in the component
+9. Check styling against wireframes
+10. Perform integration and system testing - watch console window in the developer's console to see if any errors exist
+11. Revisit PBI and see if anything has changed from what was listed in step 1
+12. Repeat steps 2 to 10, if anything has changed
+13. Deploy to DEV and verify against PBI
+14. Remember to do Regression Testing after every defect fix and implementation of a PBI
+
 
 --- DEFECTS
----- Bug 86459: ECF Next: Latest Version History row is blank content
----- Bug 86455: ECF Next: Per Page Selection is remaining 25 when selecting 50 or 100 on the content list page
+---- Bug 89452: Create Form From Template: Creating Person template resulting error during download
+
+DEFECTS (Deliver everything requested in the Defect)
+1. Read entire defect.
+2. Perform the steps to reproduce the defect 
+3. Identify the problems. 
+4. Code and fix
+5. Verify in LOCAL environment 
+6. Reread the defect to see if everything is ok.
+7. Perform the steps of the defect and see if results are the same as the expected results of the defect.
+8. ALWAYS TEST BEFORE PUSHING CODE! 
+NOTES
+-	WIREFRAME: If any discrepancy between wireframe and BDD, always use wireframe as the base. If wireframe has a problem, then notify Jonathan Healy.
+-	PROPOSAL – Should in case PBI is partially ready in mid-sprint, ask to create new PBI with new functionality
+
+
+--- Later (DO NOT DEPLOY)
 
 --- RESEARCH PBIs
 
 --- Outstanding PBIs
-
-
---- TODOs
---- Make ECF Shared Debuggable
---- ECA Upload to GIT Repository
---- Add Git Hooks fopr the following:
----- Git pre-commit
------ linting
------ Building for QA Only
------ Enforcing good commit messages with PBI's/DEFECTS numbers (DON'T NEED THIS)
-
-- 21.1 PRIORITY
-
-- Models
-EcfDocumentICNInfo
-     String icnURl;
-     EcfContentItem  ecfContentItem;
-
-EcfDocumentContentItemAndInfo
-     DocumentContentItem documentContentItem;
-     EcfContentItem  ecfContentItem;
-
-- API Methods
-public EcfDocumentICNInfo getEcfDocumentICNInfoByVsId(@HeaderParam("ecfFilenetUser") EcfFilenetUser user, @HeaderParam("vsId") String vsId)
-public EcfDocumentICNInfo getEcfDocumentICNInfoByDocId(@HeaderParam("ecfFilenetUser") EcfFilenetUser user, @HeaderParam("docId") String docId)
-public DocumentContentItemAndInfo getDocumentContentItemAndInfoByVsId(@HeaderParam("ecfFilenetUser") EcfFilenetUser user, @HeaderParam("vsId") String vsId)
-public DocumentContentItemAndInfo getDocumentContentItemAndInfoByDocId(@HeaderParam("ecfFilenetUser") EcfFilenetUser user, @HeaderParam("docId ") String docId)
-public DocumentContentItemAndInfo getStaticAdobeDocumentAndInfoByVsId(@HeaderParam("ecfFilenetUser") EcfFilenetUser user, @HeaderParam("vsId") String vsId)
-public DocumentContentItemAndInfo getStaticAdobeDocumentAndInfoByDocId(@HeaderParam("ecfFilenetUser") EcfFilenetUser user, @HeaderParam("docId ") String docId)
-
-- Toy's Meeting
--- Contract
---- Use my LLC => 90 or 95 per hour
--- UI wireframe Architecture
--- ECA Next setup
--- Family
-
-84335

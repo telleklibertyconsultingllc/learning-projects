@@ -1,0 +1,186 @@
+{
+  "cpData": {
+    "suffix": "",
+    "personBlocked": "N",
+    "mciId": "0012012200",
+    "smiId": "489522",
+    "firstName": "AGATHA",
+    "middleName": "C",
+    "lastName": "CRIB",
+    "fullName": "Crib, Agatha C",
+    "dateOfBirth": "Apr 16, 1966 12:00:00 AM",
+    "age": 54,
+    "primary": true
+  },
+  "supervisor": {
+    "lastName": "Bratton",
+    "firstName": "Cindi",
+    "middleName": "J",
+    "HCUserId": "WFP899",
+    "phoneNumber": "+16123486995",
+    "stateUserId": "X1273P6",
+    "emailAddress": "WFP899@hennepin.us",
+    "caseType": "PRISM",
+    "workerType": "PRIMARY",
+    "primaryIndicator": "Y",
+    "unitId": 719,
+    "unitName": "HSPH - CS Unit Brown ",
+    "workerAddresses": [
+      {
+        "mailCode": "890",
+        "addressTypeCode": "",
+        "careOf": "",
+        "addressLine1": "Family Justice Center",
+        "addressLine2": "110 S. 4th St.",
+        "addressLine3": "",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zipcode": "55401",
+        "caseType": "PRISM",
+        "currentAddress": false,
+        "prepopAddress": false
+      }
+    ],
+    "activeWorker": false,
+    "supervisorHCId": "WF8575",
+    "supervisorFullName": "Brown, Deborah A",
+    "supervisorPhoneNumber": "+16123488363",
+    "fromOrgInfo": true,
+    "serviceAreaName": "HSPH - Child Support",
+    "serviceAreaCode": "CS"
+  },
+  "ncpData": {
+    "suffix": "",
+    "personBlocked": "N",
+    "mciId": "0012012201",
+    "smiId": "489530",
+    "firstName": "ALFRED",
+    "middleName": "P",
+    "lastName": "CRUISE",
+    "fullName": "Cruise, Alfred P",
+    "dateOfBirth": "Nov 13, 1960 12:00:00 AM",
+    "age": 60,
+    "primary": false
+  },
+  "childData": [
+    {
+      "childInactiveReasonCode": "",
+      "relationCustodialParent": "MOTHER",
+      "relationNonCustodialParent": "FATHER",
+      "personBlocked": "N",
+      "mciId": "0012012202",
+      "smiId": "395374751",
+      "firstName": "BRUCE",
+      "middleName": "W",
+      "lastName": "CRUISE",
+      "fullName": "Cruise, Bruce W",
+      "dateOfBirth": "Jun 18, 2002 12:00:00 AM",
+      "age": 18,
+      "primary": false
+    }
+  ],
+  "caseBlockedInd": "N",
+  "caseOpenDate": "Sep 14, 2009 12:00:00 AM",
+  "caseChildCount": "1",
+  "countyCode": "27",
+  "cpApplicantInd": "Y",
+  "programCode": "MFP",
+  "workerId": "X1273DZ",
+  "caseAddresses": [
+    {
+      "countyCode": "USA",
+      "beginDate": "Jul 15, 2007 12:00:00 AM",
+      "personType": "CP",
+      "phone": "",
+      "addressTypeCode": "M",
+      "careOf": "",
+      "addressLine1": "1234 RUTGER AVE",
+      "addressLine2": "",
+      "addressLine3": "",
+      "city": "GOLDEN VALLEY",
+      "state": "MN",
+      "zipcode": "55391",
+      "caseType": "PRISM",
+      "currentAddress": true,
+      "prepopAddress": true
+    }
+  ],
+  "caseNumber": "001201220001",
+  "caseType": "PRISM",
+  "caseWorkers": [
+    {
+      "lastName": "Thorn",
+      "firstName": "Paula",
+      "middleName": "F",
+      "HCUserId": "WFH950",
+      "phoneNumber": "+16123485802",
+      "stateUserId": "X1273DZ",
+      "emailAddress": "WFH950@hennepin.us",
+      "caseType": "PRISM",
+      "workerType": "PRIMARY",
+      "primaryIndicator": "Y",
+      "unitId": 757,
+      "unitName": "HSPH - ITRM Unit Wicks",
+      "workerAddresses": [
+        {
+          "mailCode": "090",
+          "addressTypeCode": "",
+          "careOf": "",
+          "addressLine1": "A-900 GOVT CENTER",
+          "addressLine2": "300 S. 6th St.",
+          "addressLine3": "",
+          "city": "Minneapolis",
+          "state": "MN",
+          "zipcode": "554870090",
+          "caseType": "PRISM",
+          "currentAddress": false,
+          "prepopAddress": false
+        }
+      ],
+      "activeWorker": false,
+      "supervisorHCId": "BTC136",
+      "supervisorFullName": "Wicks, Victoria A",
+      "supervisorPhoneNumber": "+16125966848",
+      "fromOrgInfo": true,
+      "serviceAreaName": "HSPH - Information Technology \u0026 Records Mgmt",
+      "serviceAreaCode": "ITRM"
+    }
+  ],
+  "caseStatus": "Open",
+  "caseParticipants": [
+    {
+      "lastName": "CRIB",
+      "firstName": "AGATHA",
+      "middleName": "C",
+      "fullName": "Crib, Agatha C",
+      "smiId": "489522",
+      "mciId": "0012012200",
+      "dateOfBirth": "Apr 16, 1966 12:00:00 AM",
+      "role": "Custodial Parent",
+      "primary": true
+    },
+    {
+      "lastName": "CRUISE",
+      "firstName": "ALFRED",
+      "middleName": "P",
+      "fullName": "Cruise, Alfred P",
+      "smiId": "489530",
+      "mciId": "0012012201",
+      "dateOfBirth": "Nov 13, 1960 12:00:00 AM",
+      "role": "Non-Custodial Parent",
+      "primary": false
+    },
+    {
+      "lastName": "CRUISE",
+      "firstName": "BRUCE",
+      "middleName": "W",
+      "fullName": "Cruise, Bruce W",
+      "smiId": "395374751",
+      "mciId": "0012012202",
+      "dateOfBirth": "Jun 18, 2002 12:00:00 AM",
+      "role": "Child",
+      "primary": false
+    }
+  ],
+  "caseName": "CP: Crib, Agatha C NCP: Cruise, Alfred P"
+}

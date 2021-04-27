@@ -1,0 +1,237 @@
+/*
+    Combinators
+*/
+/* > child combinator = target all elements that are immediate siblings no matter their positions */
+.wrapper > p {
+    padding: 28px;
+    background-color: chocolate;
+    color: white;
+}
+
+/* + = Adjacent Sibling = Selects the first element after the element */
+p + aside {
+    background-color: hotpink;
+    padding: 28px;
+}
+
+/* ~ = General Sibling = Selects all elements that are sibling to the parent element */
+div ~ p {
+    color: blue;
+}
+
+#top-five {
+    padding: 15px;
+    border: 2px solid chocolate;
+    background-color: tan;
+    color: #fff;
+}
+
+#top-one:hover + .course {
+    display: block;
+    cursor: pointer;
+}
+
+#top-five:hover ~ .course {
+    display: block;
+    cursor: pointer;
+}
+
+.course {
+    padding: 20px;
+    background-color: tomato;
+    color: #fff;
+    margin: 10px;
+    display: none;
+}
+
+.course h2 {
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+/*
+    Attribute Selectors
+*/
+a {
+    display: inline-block;
+    padding: 20px;
+    background-color: chocolate;
+    text-decoration: none;
+    color: #fff;
+}
+
+a[target] {
+    background-color: yellowgreen;
+}
+
+form {
+    border: 1px solid gray;
+    padding: 20px 30px;
+    background-color: lightblue;
+    width: 350px;
+    height: 230px;
+}
+
+input {
+    padding: 5px;
+    height: 30px;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 15px;
+    background-color: #66BFBF;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type=text] {
+    border: 2px dotted #66BFBF;
+}
+
+input[type=password] {
+    border: 5px dashed #66BFBF;
+}
+
+/*
+    Flexible Attributes
+*/
+/* | = pipe character allows you to select attributes that starts with a specific value */
+p[lang|='en'] {
+    border: 5px solid chocolate;
+    background-color: lightblue;
+}
+p[lang|='fr'] {
+    border: 5px solid dimgray;
+    background-color: lightblue;
+}
+/* ^= = pipe character allows you to select attributes that begins with a specific value */
+a[href^='http'] {
+    font-size: 1.1em;
+    font-style: italic;
+}
+/* $= = pipe character allows you to select attributes that ends with a specific value */
+a[href$=pdf] {
+    color: red;
+}
+
+/* *= = pipe character allows you to select attributes that starts with a specific value */
+a[href*=amazon] {
+    color: rebeccapurple;
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'ecf-font';
+    src: url(''), url('');
+}
+
+/* links that have href*/
+a:link {
+    background-color: blue;
+}
+
+/* Pseudo-class */
+a:visited {
+    background-color: pink;
+}
+
+a:active {
+    color: red;
+}
+
+/* Not only links */
+a:hover {
+    color: white;
+}
+
+p:hover {
+    background-color: tomato;
+}
+
+/*
+
+Form Elements 
+https://developer.mozilla.org/en-us/docs/web/css/pseudo-classes
+*/
+input[type='checkbox']:checked {
+    color: #66bfbf;
+}
+
+input:valid,
+input:invalid,
+input:required,
+input:optional + p {
+    color: white;
+}
+
+input:not(:required) {
+    background-color: chocolate;
+}
+
+/* no child element or elements in the container */
+input:empty {
+    background-color: #fff;
+}
+
+/*
+The :target pseudo-class is used for styling target elements that are navigated
+to by links.
+*/
+p:target {
+    background-color: tan;
+    padding: 20px;
+}
+
+/*
+:first-child => to select the first element
+*/
+p:first-child {
+    color: aliceblue;
+}
+
+p:last-child {
+    color: aqua;
+}
+
+/*
+:only-child => only child of the parent
+*/
+p a:only-child {
+    color: tan;
+}
+
+/*
+= selects an element based on equation
+:nth-child
+:last-child
+EQUATIONS
+odd
+even
+1....n
+2n+1
+*/
+
+/*
+:first-of-type = selects first element in the parent
+p:first-of-type
+
+:last-of-type
+p:last-of-type
+
+:only-of-type = select element if it's the only element in its parent
+p:only-of-type
+
+:nth-of-type() = receives an equation like above
+*/
+
+/*
+Use for generating content
+::before
+::after
+Requires a content property
+*/

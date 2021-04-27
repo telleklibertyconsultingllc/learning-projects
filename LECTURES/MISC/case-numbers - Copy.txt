@@ -3,6 +3,7 @@ https://ecfdev/EcfFilenetServices/
 https://ecfdev/HHSSystemServices/
 https://ecfdev:9444/ibm/api/explorer - swagger
 https://ecfdev:9444/ibm/api/docs
+https://ecfdev/EcfFilenetServices/ - WSDL
 
 ECF Shared Library
 username: boazkallagunta

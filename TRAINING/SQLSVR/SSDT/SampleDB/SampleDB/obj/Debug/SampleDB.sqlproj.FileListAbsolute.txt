@@ -1,0 +1,10 @@
+C:\APPS\NOTES\learning-projects\TRAINING\SQLSVR\SSDT\SampleDB\SampleDB\bin\Debug\SampleDB.dacpac
+C:\APPS\NOTES\learning-projects\TRAINING\SQLSVR\SSDT\SampleDB\SampleDB\bin\Debug\SampleDB.dll
+C:\APPS\NOTES\learning-projects\TRAINING\SQLSVR\SSDT\SampleDB\SampleDB\bin\Debug\SampleDB.pdb
+C:\APPS\NOTES\learning-projects\TRAINING\SQLSVR\SSDT\SampleDB\SampleDB\obj\Debug\SampleDB.sqlprojAssemblyReference.cache
+C:\APPS\NOTES\learning-projects\TRAINING\SQLSVR\SSDT\SampleDB\SampleDB\obj\Debug\Model.xml
+C:\APPS\NOTES\learning-projects\TRAINING\SQLSVR\SSDT\SampleDB\SampleDB\obj\Debug\refactor.xml
+C:\APPS\NOTES\learning-projects\TRAINING\SQLSVR\SSDT\SampleDB\SampleDB\obj\Debug\postdeploy.sql
+C:\APPS\NOTES\learning-projects\TRAINING\SQLSVR\SSDT\SampleDB\SampleDB\obj\Debug\predeploy.sql
+C:\APPS\NOTES\learning-projects\TRAINING\SQLSVR\SSDT\SampleDB\SampleDB\obj\Debug\SampleDB.dll
+C:\APPS\NOTES\learning-projects\TRAINING\SQLSVR\SSDT\SampleDB\SampleDB\obj\Debug\SampleDB.pdb

@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Customer]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[CustomerName] VARCHAR(50) NULL,
+	[Description] VARCHAR(100) NULL,
+	[CustomerRankId] INT NOT NULL,
+	CONSTRAINT [FK_CUSTOMER_CUSTOMERRANKING] FOREIGN KEY ([CustomerRankId]) REFERENCES [Ranking](Id)
+);

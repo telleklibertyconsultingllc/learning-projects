@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Ranking]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[RankName] VARCHAR(50) NULL
+)

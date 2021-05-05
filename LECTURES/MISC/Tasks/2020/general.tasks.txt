@@ -1,14 +1,13 @@
 TASKS
 - 8AM <=> 2PM (WORK)
 --- DONE
-
---- PBIs
 ---- Product Backlog Item 77976: Create a single, new Adobe Blue LiveCycle Case based document from a Case File
 ---- Product Backlog Item 86088: Create a single, new Adobe Blue LiveCycle Person based document from a Case File
----- Product Backlog Item 86392: Create Form From Template: Add/Remove Favorite Content Types
+
+--- PBIs
+---- Product Backlog Item 86392: Create Form From Template: Add/Remove Favorite Content Types - Local Branch
 ---- Product Backlog Item 88827: ECF NEXT: Template Step Custom Control - In Local Branch
 ---- Product Backlog Item 87024: ECF Next: Custom Controls - In Local Branch
----- Product Backlog Item 82803: ECA Next: Landing Page
 
 PBIs Process (Deliver everything requested in the PBI)
 1. List required functionalities for the UI

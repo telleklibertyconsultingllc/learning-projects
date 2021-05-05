@@ -1,0 +1,9 @@
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.MapperProfiles\bin\Debug\netcoreapp3.1\EX.EFC.MapperProfiles.deps.json
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.MapperProfiles\bin\Debug\netcoreapp3.1\EX.EFC.MapperProfiles.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.MapperProfiles\bin\Debug\netcoreapp3.1\EX.EFC.MapperProfiles.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.MapperProfiles\obj\Debug\netcoreapp3.1\EX.EFC.MapperProfiles.csprojAssemblyReference.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.MapperProfiles\obj\Debug\netcoreapp3.1\EX.EFC.MapperProfiles.AssemblyInfoInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.MapperProfiles\obj\Debug\netcoreapp3.1\EX.EFC.MapperProfiles.AssemblyInfo.cs
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.MapperProfiles\obj\Debug\netcoreapp3.1\EX.EFC.MapperProfiles.csproj.CoreCompileInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.MapperProfiles\obj\Debug\netcoreapp3.1\EX.EFC.MapperProfiles.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.MapperProfiles\obj\Debug\netcoreapp3.1\EX.EFC.MapperProfiles.pdb

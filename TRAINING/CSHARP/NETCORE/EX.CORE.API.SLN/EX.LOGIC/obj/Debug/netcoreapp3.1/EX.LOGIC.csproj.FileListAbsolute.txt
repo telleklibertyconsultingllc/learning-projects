@@ -12,3 +12,17 @@ C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\obj\Debug\netcoreapp
 C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\obj\Debug\netcoreapp3.1\EX.LOGIC.csproj.CopyComplete
 C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\obj\Debug\netcoreapp3.1\EX.LOGIC.dll
 C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\obj\Debug\netcoreapp3.1\EX.LOGIC.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\bin\Debug\netcoreapp3.1\EX.LOGIC.deps.json
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\bin\Debug\netcoreapp3.1\EX.LOGIC.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\bin\Debug\netcoreapp3.1\EX.LOGIC.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\bin\Debug\netcoreapp3.1\EX.DTO.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\bin\Debug\netcoreapp3.1\EX.Interfaces.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\bin\Debug\netcoreapp3.1\EX.DTO.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\bin\Debug\netcoreapp3.1\EX.Interfaces.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\obj\Debug\netcoreapp3.1\EX.LOGIC.csprojAssemblyReference.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\obj\Debug\netcoreapp3.1\EX.LOGIC.AssemblyInfoInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\obj\Debug\netcoreapp3.1\EX.LOGIC.AssemblyInfo.cs
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\obj\Debug\netcoreapp3.1\EX.LOGIC.csproj.CoreCompileInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\obj\Debug\netcoreapp3.1\EX.LOGIC.csproj.CopyComplete
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\obj\Debug\netcoreapp3.1\EX.LOGIC.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.LOGIC\obj\Debug\netcoreapp3.1\EX.LOGIC.pdb

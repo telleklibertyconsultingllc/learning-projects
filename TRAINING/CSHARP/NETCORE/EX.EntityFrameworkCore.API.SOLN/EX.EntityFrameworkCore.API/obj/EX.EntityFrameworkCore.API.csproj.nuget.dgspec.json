@@ -1,0 +1,585 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EntityFrameworkCore.API\\EX.EntityFrameworkCore.API.csproj": {}
+  },
+  "projects": {
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Constants\\EX.EFC.Constants.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Constants\\EX.EFC.Constants.csproj",
+        "projectName": "EX.EFC.Constants",
+        "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Constants\\EX.EFC.Constants.csproj",
+        "packagesPath": "C:\\Users\\telle\\.nuget\\packages\\",
+        "outputPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Constants\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\telle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.DTOs\\EX.EFC.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.DTOs\\EX.EFC.Models.csproj",
+        "projectName": "EX.EFC.Models",
+        "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.DTOs\\EX.EFC.Models.csproj",
+        "packagesPath": "C:\\Users\\telle\\.nuget\\packages\\",
+        "outputPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\telle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Enums\\EX.EFC.Enums.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Enums\\EX.EFC.Enums.csproj",
+        "projectName": "EX.EFC.Enums",
+        "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Enums\\EX.EFC.Enums.csproj",
+        "packagesPath": "C:\\Users\\telle\\.nuget\\packages\\",
+        "outputPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Enums\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\telle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Extensions\\EX.EFC.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Extensions\\EX.EFC.Extensions.csproj",
+        "projectName": "EX.EFC.Extensions",
+        "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Extensions\\EX.EFC.Extensions.csproj",
+        "packagesPath": "C:\\Users\\telle\\.nuget\\packages\\",
+        "outputPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\telle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Interfaces\\EX.EFC.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Interfaces\\EX.EFC.Interfaces.csproj",
+        "projectName": "EX.EFC.Interfaces",
+        "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Interfaces\\EX.EFC.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\telle\\.nuget\\packages\\",
+        "outputPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\telle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.MapperProfiles\\EX.EFC.MapperProfiles.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.MapperProfiles\\EX.EFC.MapperProfiles.csproj",
+        "projectName": "EX.EFC.MapperProfiles",
+        "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.MapperProfiles\\EX.EFC.MapperProfiles.csproj",
+        "packagesPath": "C:\\Users\\telle\\.nuget\\packages\\",
+        "outputPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.MapperProfiles\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\telle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Pipeline.Extensions\\EX.EFC.Pipeline.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Pipeline.Extensions\\EX.EFC.Pipeline.Extensions.csproj",
+        "projectName": "EX.EFC.Pipeline.Extensions",
+        "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Pipeline.Extensions\\EX.EFC.Pipeline.Extensions.csproj",
+        "packagesPath": "C:\\Users\\telle\\.nuget\\packages\\",
+        "outputPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Pipeline.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\telle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Rules\\EX.EFC.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Rules\\EX.EFC.Domain.csproj",
+        "projectName": "EX.EFC.Domain",
+        "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Rules\\EX.EFC.Domain.csproj",
+        "packagesPath": "C:\\Users\\telle\\.nuget\\packages\\",
+        "outputPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Rules\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\telle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EntityFrameworkCore.API\\EX.EntityFrameworkCore.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EntityFrameworkCore.API\\EX.EntityFrameworkCore.API.csproj",
+        "projectName": "EX.EntityFrameworkCore.API",
+        "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EntityFrameworkCore.API\\EX.EntityFrameworkCore.API.csproj",
+        "packagesPath": "C:\\Users\\telle\\.nuget\\packages\\",
+        "outputPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EntityFrameworkCore.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\telle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Constants\\EX.EFC.Constants.csproj": {
+                "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Constants\\EX.EFC.Constants.csproj"
+              },
+              "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.DTOs\\EX.EFC.Models.csproj": {
+                "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.DTOs\\EX.EFC.Models.csproj"
+              },
+              "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Enums\\EX.EFC.Enums.csproj": {
+                "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Enums\\EX.EFC.Enums.csproj"
+              },
+              "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Extensions\\EX.EFC.Extensions.csproj": {
+                "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Extensions\\EX.EFC.Extensions.csproj"
+              },
+              "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Interfaces\\EX.EFC.Interfaces.csproj": {
+                "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Interfaces\\EX.EFC.Interfaces.csproj"
+              },
+              "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.MapperProfiles\\EX.EFC.MapperProfiles.csproj": {
+                "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.MapperProfiles\\EX.EFC.MapperProfiles.csproj"
+              },
+              "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Pipeline.Extensions\\EX.EFC.Pipeline.Extensions.csproj": {
+                "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Pipeline.Extensions\\EX.EFC.Pipeline.Extensions.csproj"
+              },
+              "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Rules\\EX.EFC.Domain.csproj": {
+                "projectPath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.EntityFrameworkCore.API.SOLN\\EX.EFC.Rules\\EX.EFC.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

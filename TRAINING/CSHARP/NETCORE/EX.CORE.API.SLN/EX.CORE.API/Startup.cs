@@ -1,6 +1,7 @@
 using EX.SignalR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,13 +25,20 @@ namespace EX.CORE.API
             {
                 options.AddPolicy("CorsPolicy", builder =>
                 {
-                    builder.WithOrigins("https://localhost:44307")
+                    builder.WithOrigins("http://localhost:51022")
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .AllowCredentials();
                 });
             });
-            services.AddControllers();
+            services.AddControllers(setupAction =>
+            {
+                setupAction.ReturnHttpNotAcceptable = true;
+                setupAction.OutputFormatters.Add(new XmlDataContractSerializerOutputFormatter());
+                setupAction.OutputFormatters.Add(
+                    new SystemTextJsonOutputFormatter(
+                        new System.Text.Json.JsonSerializerOptions(System.Text.Json.JsonSerializerDefaults.Web)));
+            });
             services.AddSignalR(configure =>
             {
                 configure.ClientTimeoutInterval = TimeSpan.FromMinutes(60);
@@ -53,7 +61,7 @@ namespace EX.CORE.API
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapHub<ExampleHub>("/example");
+                endpoints.MapHub<ExampleHub>("/signalr-example");
             });
         }
     }

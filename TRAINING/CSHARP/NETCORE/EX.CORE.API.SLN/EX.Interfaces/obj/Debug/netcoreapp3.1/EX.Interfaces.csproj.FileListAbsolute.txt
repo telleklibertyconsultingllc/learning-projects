@@ -10,3 +10,15 @@ C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netco
 C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.csproj.CopyComplete
 C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.dll
 C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\bin\Debug\netcoreapp3.1\EX.Interfaces.deps.json
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\bin\Debug\netcoreapp3.1\EX.Interfaces.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\bin\Debug\netcoreapp3.1\EX.Interfaces.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\bin\Debug\netcoreapp3.1\EX.DTO.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\bin\Debug\netcoreapp3.1\EX.DTO.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.csprojAssemblyReference.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.AssemblyInfoInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.AssemblyInfo.cs
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.csproj.CoreCompileInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.csproj.CopyComplete
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.Interfaces\obj\Debug\netcoreapp3.1\EX.Interfaces.pdb

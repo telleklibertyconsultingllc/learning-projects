@@ -1,66 +1,50 @@
 TASKS
 - 8AM <=> 2PM (WORK)
 --- DONE
----- Dale_DEV_2020S25_2 (Merging Dale's Branch to DEV)
----- Product Backlog Item 76408: Create ECA client using Angular
----- Product Backlog Item 81696: Edit Existing Content: Check Out & Cancel Check Out Content From Properties Drawer
----- Product Backlog Item 79351: Edit Existing Content: Check In Non-Adobe Blue LiveCycle
----- Bug 79836: ECF Next: Program Areas for External Contracted Users should not be displaying in the list of programs
----- Bug 82984: ECF Next: Cancel Checkout button should be Cancel Check Out (two words for Check Out)
----- Bug 82891: ECF Next: Non-adobe content not displaying Check In button after checked out
----- Bug 82991: ECF Next: When checking out content from page 2 or beyond, it does not return to specific properties drawer, but returns you to page one
-
----- Bug 82978: ECF Next: Cancel Checkout button background should not be transparent
----- Bug 83033: ECF Next: Non-adobe blue content not displaying Cancel Check Out for support user
+---- Product Backlog Item 77976: Create a single, new Adobe Blue LiveCycle Case based document from a Case File
+---- Product Backlog Item 86088: Create a single, new Adobe Blue LiveCycle Person based document from a Case File
 
 --- PBIs
+---- Product Backlog Item 86392: Create Form From Template: Add/Remove Favorite Content Types - Local Branch
+---- Product Backlog Item 88827: ECF NEXT: Template Step Custom Control - In Local Branch
+---- Product Backlog Item 87024: ECF Next: Custom Controls - In Local Branch
+
+PBIs Process (Deliver everything requested in the PBI)
+1. List required functionalities for the UI
+2. Determine all UI components, directives, pipes, services, stores (if needed) for the wireframe
+3. Pick existing UI and see styles where wireframes are referring to - for reusability
+4. Pick existing components, directives, pipes, services, stores where wireframes are referring to - for reusability
+5. Determine code changes
+6. Implement Code 
+7. Make sure implementation functions according to step 1
+8. Check for errors in the component
+9. Check styling against wireframes
+10. Perform integration and system testing - watch console window in the developer's console to see if any errors exist
+11. Revisit PBI and see if anything has changed from what was listed in step 1
+12. Repeat steps 2 to 10, if anything has changed
+13. Deploy to DEV and verify against PBI
+14. Remember to do Regression Testing after every defect fix and implementation of a PBI
+
 
 --- DEFECTS
----- ECF Content ACCESS Document Service to retrieve Single Content (NOT PART OF SPRINT - FONG PERFORMANCE)
----- Bug 82788: ECF Next: Content versions are not displaying in ECF Next QA env
----- Date Filter Content History
+---- Bug 89452: Create Form From Template: Creating Person template resulting error during download
 
----- Bug 83169: ECF Next: Toast message for cancel check is displayed, then a small yellow message box arrow and X to close with No Message appears
----- Bug 83179: ECF Next: Buttons on the dialog box "Are you sure you want to cancel checkout for this content?" are in reverse order, missing 'ed' on Checked Out, and screen is gray in color
+DEFECTS (Deliver everything requested in the Defect)
+1. Read entire defect.
+2. Perform the steps to reproduce the defect 
+3. Identify the problems. 
+4. Code and fix
+5. Verify in LOCAL environment 
+6. Reread the defect to see if everything is ok.
+7. Perform the steps of the defect and see if results are the same as the expected results of the defect.
+8. ALWAYS TEST BEFORE PUSHING CODE! 
+NOTES
+-	WIREFRAME: If any discrepancy between wireframe and BDD, always use wireframe as the base. If wireframe has a problem, then notify Jonathan Healy.
+-	PROPOSAL – Should in case PBI is partially ready in mid-sprint, ask to create new PBI with new functionality
+
+
+--- Later (DO NOT DEPLOY)
 
 --- RESEARCH PBIs
----- Product Backlog Item 81656: Research - Edit Existing Content: User's Check Out Expires History
 
---- TODOs
---- TimeOut Recheck
---- Make ECF Shared Debuggable
---- ECF Content Access - content list service change
---- ECA Upload to GIT Repository
---- Add Git Hooks fopr the following:
----- Git pre-commit
------ linting
------ Building for QA Only
------ Enforcing good commit messages with PBI's/DEFECTS numbers (DON'T NEED THIS)
-
-- date received
-- last modified date = ius the checkout date
-
-IMPORTANT!!!!
----- Bug 79836: ECF Next: Program Areas for External Contracted Users should not be displaying in the list of programs
-1.	Only returning the contracted FAVORITE_AREA if the user is a contracted user. It returns the correct area based on the AD group. Bug 79836: ECF Next: Program Areas for External Contracted Users should not be displaying in the list of programs - Boards (visualstudio.com)
-Note: the userId parameter should match the authenticated userId (which will work with the UI code now).  In the future there will be a need to see roles, preferences for a user other than who is requesting it.
-2.	Three new services for Favorite Case in the preference service:
-/EcfPreferenceService:
-@GET
-@Path("/getFavoriteCases")
-public EcfFavoriteCase[] getFavoriteCases(@HeaderParam("userId") String userId) throws PreferenceServiceException, DataException, NotFoundException 
-@POST
-@Path("/addFavoriteCase")
-public EcfFavoriteCase addFavoriteCase(@HeaderParam("user") EcfFilenetUser user, @HeaderParam("favoriteCase") EcfFavoriteCase favoriteCase) throws PreferenceServiceException, AuthorizationException, NotFoundException, DataException 
-@DELETE
-@Path("/deleteFavoriteCase")
-public void deleteFavoriteCase(@HeaderParam("user") EcfFilenetUser user, @HeaderParam("favoriteCaseId") int favoriteCaseId) throws PreferenceServiceException, NotFoundException, AuthorizationException, DataException 
-Model object:
-namespace="http://preference.model.filenet.ecf"
-public class EcfFavoriteCase 
-       private int instanceId;
-       private String userId;
-       private String caseId;
-       private String caseName;
-private CaseType caseType;
---- ECF Content ACCESS Document Service to retrieve Single Content
+--- Outstanding PBIs

@@ -1,0 +1,9 @@
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Enums\bin\Debug\netcoreapp3.1\EX.EFC.Enums.deps.json
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Enums\bin\Debug\netcoreapp3.1\EX.EFC.Enums.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Enums\bin\Debug\netcoreapp3.1\EX.EFC.Enums.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Enums\obj\Debug\netcoreapp3.1\EX.EFC.Enums.csprojAssemblyReference.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Enums\obj\Debug\netcoreapp3.1\EX.EFC.Enums.AssemblyInfoInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Enums\obj\Debug\netcoreapp3.1\EX.EFC.Enums.AssemblyInfo.cs
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Enums\obj\Debug\netcoreapp3.1\EX.EFC.Enums.csproj.CoreCompileInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Enums\obj\Debug\netcoreapp3.1\EX.EFC.Enums.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Enums\obj\Debug\netcoreapp3.1\EX.EFC.Enums.pdb

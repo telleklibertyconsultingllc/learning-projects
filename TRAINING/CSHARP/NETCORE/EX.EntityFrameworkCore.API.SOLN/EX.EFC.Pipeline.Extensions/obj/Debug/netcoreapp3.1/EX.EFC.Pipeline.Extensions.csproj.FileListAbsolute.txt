@@ -1,0 +1,9 @@
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Pipeline.Extensions\bin\Debug\netcoreapp3.1\EX.EFC.Pipeline.Extensions.deps.json
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Pipeline.Extensions\bin\Debug\netcoreapp3.1\EX.EFC.Pipeline.Extensions.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Pipeline.Extensions\bin\Debug\netcoreapp3.1\EX.EFC.Pipeline.Extensions.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Pipeline.Extensions\obj\Debug\netcoreapp3.1\EX.EFC.Pipeline.Extensions.csprojAssemblyReference.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Pipeline.Extensions\obj\Debug\netcoreapp3.1\EX.EFC.Pipeline.Extensions.AssemblyInfoInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Pipeline.Extensions\obj\Debug\netcoreapp3.1\EX.EFC.Pipeline.Extensions.AssemblyInfo.cs
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Pipeline.Extensions\obj\Debug\netcoreapp3.1\EX.EFC.Pipeline.Extensions.csproj.CoreCompileInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Pipeline.Extensions\obj\Debug\netcoreapp3.1\EX.EFC.Pipeline.Extensions.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Pipeline.Extensions\obj\Debug\netcoreapp3.1\EX.EFC.Pipeline.Extensions.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bscm8RiemjTCK3PX7RqX+QYA8S/+kuNOxy3uB/OYGy/kgSiICCnyxwdjI6t7etGO4vYATMTYzZpN7dvrOwTo7Q==",
+  "dgSpecHash": "16cc5RdgKic4RdWCsWoAJyZpTHha1qSqLOnVxaeSi/LKt+BPcKEzAecG93ImPm1jFsIuof5A9eI6SlFF/kwLOw==",
   "success": true,
-  "projectFilePath": "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\EX.DTO.csproj",
+  "projectFilePath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.DTO\\EX.DTO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

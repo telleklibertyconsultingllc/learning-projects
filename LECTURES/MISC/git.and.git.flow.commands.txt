@@ -18,7 +18,7 @@ git flow feature diff [<name|nameprefix>]
 git flow feature rebase [-i] [<name|nameprefix>]
 git flow feature checkout [<name|nameprefix>]
 git flow feature pull [-r] <remote> [<name>]
-git flow feature delete
+git flow feature delete <name-of-branc>
 
 - Rename a branch
 git branch -m <old-branch-name> <new-branch-name>

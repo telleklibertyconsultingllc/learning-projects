@@ -1,0 +1,9 @@
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Interfaces\bin\Debug\netcoreapp3.1\EX.EFC.Interfaces.deps.json
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Interfaces\bin\Debug\netcoreapp3.1\EX.EFC.Interfaces.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Interfaces\bin\Debug\netcoreapp3.1\EX.EFC.Interfaces.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Interfaces\obj\Debug\netcoreapp3.1\EX.EFC.Interfaces.csprojAssemblyReference.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Interfaces\obj\Debug\netcoreapp3.1\EX.EFC.Interfaces.AssemblyInfoInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Interfaces\obj\Debug\netcoreapp3.1\EX.EFC.Interfaces.AssemblyInfo.cs
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Interfaces\obj\Debug\netcoreapp3.1\EX.EFC.Interfaces.csproj.CoreCompileInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Interfaces\obj\Debug\netcoreapp3.1\EX.EFC.Interfaces.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EFC.Interfaces\obj\Debug\netcoreapp3.1\EX.EFC.Interfaces.pdb

@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EX.WEB.API</name>
+    </assembly>
+    <members>
+        <member name="T:EX.WEB.API.Binders.ArrayModelBinder">
+            <summary>
+            Array Model Binder
+            </summary>
+        </member>
+        <member name="M:EX.WEB.API.Binders.ArrayModelBinder.BindModelAsync(Microsoft.AspNetCore.Mvc.ModelBinding.ModelBindingContext)">
+            <summary>
+            BindModel Async
+            </summary>
+            <param name="bindingContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EX.WEB.API.Controllers.ValuesController">
+            <summary>
+            Values controller
+            </summary>
+        </member>
+        <member name="M:EX.WEB.API.Controllers.ValuesController.#ctor(EX.Repository.Interfaces.ICustomerRepository,AutoMapper.IMapper,System.Net.Http.IHttpClientFactory)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="customerRepository"></param>
+            <param name="mapper"></param>
+            /// <param name="httpClientFactory"></param>
+        </member>
+        <member name="M:EX.WEB.API.Controllers.ValuesController.Get">
+            <summary>
+            Get
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EX.WEB.API.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Get id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EX.WEB.API.Controllers.ValuesController.GetIds(System.Collections.Generic.IEnumerable{System.Guid})">
+            <summary>
+            GetIds
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EX.WEB.API.Controllers.ValuesController.Post(EX.DTO.Model.AuthorDto)">
+            <summary>
+            POST
+            </summary>
+            <param name="author"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EX.WEB.API.Controllers.ValuesController.PostArray(System.Collections.Generic.IEnumerable{EX.DTO.Model.AuthorDto})">
+            <summary>
+            Post Array
+            </summary>
+            <param name="author"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EX.WEB.API.Controllers.ValuesController.Put(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>
+            PUT
+            </summary>
+            <param name="authorId"></param>
+            <param name="id"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EX.WEB.API.Controllers.ValuesController.Delete(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Delete
+            </summary>
+            <param name="authorId"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EX.WEB.API.Controllers.ValuesController.PatchAuthor(System.Nullable{System.Int32},Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{EX.DTO.Model.AuthorDto})">
+            <summary>
+            Patch
+            </summary>
+            <param name="courseId"></param>
+            <param name="patchDocument"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EX.WEB.API.Controllers.ValuesController.GetAuthorsOptions">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EX.WEB.API.Controllers.ValuesController.ValidationProblem(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)">
+            <summary>
+            This override allows the API to use the ModelBinder Validation 
+            in the Startup class
+            </summary>
+            <param name="modelStateDictionary"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EX.WEB.API.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EX.WEB.API.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:EX.WEB.API.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EX.WEB.API.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EX.WEB.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:EX.WEB.API.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EX.WEB.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:EX.WEB.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

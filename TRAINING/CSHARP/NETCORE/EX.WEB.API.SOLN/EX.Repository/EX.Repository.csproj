@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EX.DTO.Model\EX.DTO.Model.csproj" />
+    <ProjectReference Include="..\EX.Mapper.Profiles\EX.Mapper.Profiles.csproj" />
+    <ProjectReference Include="..\EX.Repository.Interfaces\EX.Repository.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

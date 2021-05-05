@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+pKfuWGCAuJoGeVURECtbmjsWlVTk5gxd6ZmwGcOt5YpNDHhSAeP/6McngR8yGptzkOHubeCnmnSkwX/fXB9WQ==",
+  "dgSpecHash": "l6aISH8gVJgW5s0d1IxP65Xk/iHEBR4BlX8aE07UzhXzXH67MnHNsTjJlN2X6nkdBdFCkYOVPfbOlVziDHl0uw==",
   "success": true,
-  "projectFilePath": "C:\\TLNOTES\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.Interfaces\\EX.Interfaces.csproj",
+  "projectFilePath": "C:\\TellekPersonal\\TLNOTES\\learning-projects\\TRAINING\\CSHARP\\NETCORE\\EX.CORE.API.SLN\\EX.Interfaces\\EX.Interfaces.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -6,3 +6,12 @@ C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\obj\Debug\netcoreapp3.
 C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\obj\Debug\netcoreapp3.1\EX.DTO.csproj.CoreCompileInputs.cache
 C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\obj\Debug\netcoreapp3.1\EX.DTO.dll
 C:\TLNOTES\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\obj\Debug\netcoreapp3.1\EX.DTO.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\bin\Debug\netcoreapp3.1\EX.DTO.deps.json
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\bin\Debug\netcoreapp3.1\EX.DTO.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\bin\Debug\netcoreapp3.1\EX.DTO.pdb
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\obj\Debug\netcoreapp3.1\EX.DTO.csprojAssemblyReference.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\obj\Debug\netcoreapp3.1\EX.DTO.AssemblyInfoInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\obj\Debug\netcoreapp3.1\EX.DTO.AssemblyInfo.cs
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\obj\Debug\netcoreapp3.1\EX.DTO.csproj.CoreCompileInputs.cache
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\obj\Debug\netcoreapp3.1\EX.DTO.dll
+C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.CORE.API.SLN\EX.DTO\obj\Debug\netcoreapp3.1\EX.DTO.pdb

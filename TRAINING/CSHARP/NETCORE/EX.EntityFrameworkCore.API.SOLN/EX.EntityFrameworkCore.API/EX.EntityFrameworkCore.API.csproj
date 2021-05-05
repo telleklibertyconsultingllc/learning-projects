@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\TellekPersonal\TLNOTES\learning-projects\TRAINING\CSHARP\NETCORE\EX.EntityFrameworkCore.API.SOLN\EX.EntityFrameworkCore.API\EX.EntityFrameworkCore.API.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EX.EFC.Constants\EX.EFC.Constants.csproj" />
+    <ProjectReference Include="..\EX.EFC.DTOs\EX.EFC.Models.csproj" />
+    <ProjectReference Include="..\EX.EFC.Enums\EX.EFC.Enums.csproj" />
+    <ProjectReference Include="..\EX.EFC.Extensions\EX.EFC.Extensions.csproj" />
+    <ProjectReference Include="..\EX.EFC.Interfaces\EX.EFC.Interfaces.csproj" />
+    <ProjectReference Include="..\EX.EFC.MapperProfiles\EX.EFC.MapperProfiles.csproj" />
+    <ProjectReference Include="..\EX.EFC.Pipeline.Extensions\EX.EFC.Pipeline.Extensions.csproj" />
+    <ProjectReference Include="..\EX.EFC.Rules\EX.EFC.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+</Project>
